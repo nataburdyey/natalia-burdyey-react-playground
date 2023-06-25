@@ -1,4 +1,8 @@
+import Hero from "./Hero";
+
 const App = () => {
-  return <h1>My Portfolio</h1>;
+  return <main>
+    <Hero />
+  </main>;
 };
 export default App;
