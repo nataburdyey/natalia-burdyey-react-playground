@@ -1,7 +1,16 @@
-import { projects } from "./data";
-import { nanoid } from "nanoid";
+import { useFetchProjects } from "./fetchProjects";
 
 const Projects = () => {
+  const { loading, projects } = useFetchProjects();
+
+  if (loading) {
+    return (
+      <section className="projects">
+        <h2>Loading...</h2>
+      </section>
+    );
+  }
+
   return (
     <section className="projects">
       <div className="title">
@@ -13,7 +22,7 @@ const Projects = () => {
           const { id, title, url, img } = project;
           return (
             <a
-              key={nanoid()}
+              key={id}
               href={url}
               target="_blank"
               rel="noreferrer"

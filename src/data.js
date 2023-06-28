@@ -1,67 +1,81 @@
-const projects = [
+import cakeMates from './assets/cake-mates.png';
+import accordionFun from './assets/accordion-fun.png';
+import dynamicNavPro from './assets/dynamic-nav-pro.png';
+import colorBurst from './assets/color-burst.png';
+import menuVerse from './assets/menu-verse.png';
+import slideEase from './assets/slide-ease.png';
+import sidebarSurfer from './assets/sidebar-surfer.png';
+import smartShopper from './assets/shop-smart.png';
+import opinionSpot from './assets/opinion-spot.png';
+import textGenius from './assets/text-genius.png';
+import tabMaster from './assets/tab-master.png';
+import navbar from './assets/navbar.png';
+import cart from './assets/cart-app.png';
+
+export const projects = [
   {
     title: 'Cake Mates',
     url: 'https://cake-mates.netlify.app/',
-    image: './assets/cake-mates.png',
+    img: cakeMates,
   },
   {
     title: 'Accordion Fun',
     url: 'https://accordion-fun.netlify.app/',
-    image: './assets/accordion-fun.png',
+    img: accordionFun,
   },
   {
     title: 'DynamicNavPro',
     url: 'https://dynamic-nav-pro.netlify.app/',
-    image: './assets/dynamic-nav-pro.png',
+    img: dynamicNavPro,
   },
   {
     title: 'Color Burst',
     url: 'https://color-burst.netlify.app/',
-    image: './assets/color-burst.png',
+    img: colorBurst,
   },
   {
     title: 'MenuVerse',
     url: 'https://menu-verse.netlify.app/',
-    image: './assets/menu-verse.png',
+    img: menuVerse,
   },
   {
     title: 'SlideEase',
     url: 'https://slide-ease.netlify.app/',
-    image: './assets/slide-ease.png',
+    img: slideEase,
   },
   {
     title: 'Sidebar Surfer',
     url: 'https://sidebar-surfer.netlify.app/',
-    image: './assets/sidebar-surfer.png',
+    img: sidebarSurfer,
   },
   {
-    title: 'Shop Genius',
-    url: 'https://shop-genius.netlify.app/',
-    image: './assets/shop-smart.png',
+    title: 'Smart Shopper',
+    url: 'https://smart-shopper.netlify.app/',
+    img: smartShopper,
   },
   {
     title: 'Opinion Spot',
     url: 'https://opinion-spot.netlify.app/',
-    image: './assets/opinion-spot.png',
+    img: opinionSpot,
   },
   {
     title: 'TextGenius',
     url: 'https://text-genius.netlify.app/',
-    image: './assets/text-genius.png',
+    img: textGenius,
   },
   {
     title: 'Tab Master',
     url: 'https://tab-master.netlify.app/ ',
-    image: './assets/tab-master.png',
+    img: tabMaster,
   },
   {
     title: 'NavBarPro',
     url: 'https://nav-bar-pro.netlify.app/',
-    image: './assets/navtastic.png',
+    img: navbar,
   },
   {
     title: 'ReactUseReducerCart',
     url: 'https://react-use-reducer-cart.netlify.app/',
-    image: './assets/cart-app.png',
+    img: cart,
   },
 ];
