@@ -308,62 +308,18 @@ body {
   background: var(--grey-200);
 }
 
-/* 
 .hero {
   min-height: 40vh;
   background: var(--white);
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 5rem;
-}
-
-.img-container {
-  display: none;
-} */
-
-.hero {
-  min-height: 40vh;
-  background: var(--white);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 5rem 0;
+  padding: 5rem 0 1rem 0;
 }
 
 img {
   display: none;
 }
-
-
-/* .hero-center {
-  width: 90vw;
-  max-width: var(--max-width);
-}
-
-.hero-title h1 {
-  margin-bottom: 2rem;
-  font-weight: 700;
-}
-
-.hero-title p {
-  line-height: 2;
-  max-width: 35em;
-  color: var(--grey-600);
-}
-
-@media (min-width: 992px) {
-  .hero-center {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    place-items: center;
-    gap: 4rem;
-  }
-
-  .img-container {
-    display: block;
-  }
-} */
 
 .hero-center {
   width: 90vw;
@@ -385,16 +341,17 @@ img {
   }
 }
 
-.hero-title h1 {
+.hero-title h2 {
   color: var(--black-design);
+  font-weight: 500;
   margin: 0;
 }
 
 .hero-title p {
-  font-family: 'Montserrat', monospace;
+  font-family: 'Delius';
   margin: 2rem 0;
   color: var(--grey-900);
-  font-size: 1.1rem;
+  font-size: 1rem;
   letter-spacing: 2px;
 }
 
@@ -508,6 +465,7 @@ PROJECTS
 
 .repo {
   background-color: var(--primary-100);
+  color: var(--grey-900);
 }
 
 .stack a:hover {

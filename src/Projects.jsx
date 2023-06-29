@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <section className="projects">
       <div className="title">
-        <h2>Projects</h2>
+        <h2>React Projects</h2>
         <div className="title-underline"></div>
       </div>
       <div className="projects-center">
@@ -34,7 +34,7 @@ const Projects = () => {
                   className="stack stack-item repo"
                   target="_blank"
                 >
-                  GitHub Repository
+                  GitHub Repo
                 </a>
               </p>
             </div>
