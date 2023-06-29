@@ -357,6 +357,7 @@ PROJECTS
 
 .projects {
   padding: 5rem 0;
+  font-family: 'Courier New', monospace;
 }
 
 .projects-center {
@@ -388,9 +389,11 @@ PROJECTS
 }
 
 .project h5 {
+  font-size: 1.25rem;
   text-align: center;
   padding: 1rem 0;
-  color: var(--grey-700);
+  color: var(--grey-900);
+  font-weight: 500;
 }
 
 @media (min-width: 768px) {
@@ -406,8 +409,8 @@ PROJECTS
 }
 
 .stack {
+  font-size: 0.75rem;
   font-family: 'Courier New', monospace;
-  /* background-color: #f7f7f7; */
   padding: 10px;
   border-radius: 4px;
   line-height: 1.4;
