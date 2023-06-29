@@ -10,7 +10,7 @@ const Projects = () => {
       </div>
       <div className="projects-center">
         {projects.map((project) => {
-          const { id, title, url, img } = project;
+          const { title, url, img, stack, repo } = project;
           return (
             <a
               key={nanoid()}
@@ -19,8 +19,20 @@ const Projects = () => {
               rel="noreferrer"
               className="project"
             >
-              <img src={img} alt={title} className="img" />
               <h5>{title}</h5>
+              <img src={img} alt={title} className="img" />
+              <p className="stack">
+                {stack.map((item) => {
+                  return (
+                    <span key={nanoid()} className="stack-item">
+                      {item}
+                    </span>
+                  );
+                })}
+                <a href={repo} className="stack-item" target="_blank">
+                  GitHub Repository
+                </a>
+              </p>
             </a>
           );
         })}

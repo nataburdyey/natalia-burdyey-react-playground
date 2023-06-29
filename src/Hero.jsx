@@ -1,5 +1,5 @@
-// import heroImg from './assets/online_resume.svg'
-import heroImg from "./assets/work_in_progress.svg";
+import heroImg from './assets/online_resume.svg'
+// import heroImg from "./assets/work_in_progress.svg";
 // import heroImg from './assets/career_development.svg'
 // import heroImg from './assets/remote-work.svg'
 // import heroImg from "./assets/working_remotely.svg";
