@@ -12,15 +12,15 @@ const Projects = () => {
         {projects.map((project) => {
           const { title, url, img, stack, repo } = project;
           return (
-            <a
-              key={nanoid()}
-              href={url}
-              target="_blank"
-              rel="noreferrer"
-              className="project"
-            >
-              <h5>{title}</h5>
-              <img src={img} alt={title} className="img" />
+            <div className="project" key={nanoid()}>
+              <a
+                href={url}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <h5>{title}</h5>
+                <img src={img} alt={title} className="img" />
+              </a>
               <p className="stack">
                 {stack.map((item) => {
                   return (
@@ -29,11 +29,15 @@ const Projects = () => {
                     </span>
                   );
                 })}
-                <a href={repo} className="stack-item" target="_blank">
+                <a
+                  href={repo}
+                  className="stack stack-item repo"
+                  target="_blank"
+                >
                   GitHub Repository
                 </a>
               </p>
-            </a>
+            </div>
           );
         })}
       </div>

@@ -1,3 +1,5 @@
+import React from "react";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 import cakeMates from "./assets/cake-mates.png";
 import accordionFun from "./assets/accordion-fun.png";
 import dynamicNavPro from "./assets/dynamicNavPro.png";
@@ -20,13 +22,12 @@ export const projects = [
     img: reactUseReducerCart,
     stack: [
       "React",
-      "React Icons",
       "useState()",
       "useFetch()",
       "createContext()",
       "useContext()",
       "useReducer()",
-      "custom hooks",
+      "react-icons",
     ],
     repo: "https://github.com/nataburdyey/react-useReducer-cart",
   },
@@ -61,7 +62,7 @@ export const projects = [
       "createContext()",
       "useContext()",
       "custom hooks",
-      "react-icons"
+      "react-icons",
     ],
     repo: "https://github.com/nataburdyey/dynamic-nav-pro",
   },
@@ -84,7 +85,14 @@ export const projects = [
     title: "Sidebar Surfer",
     url: "https://sidebar-surfer.netlify.app/",
     img: sidebarSurfer,
-    stack: ["React", "useState()", "createContext()", "useContext()", "custom hooks", "react-icons"],
+    stack: [
+      "React",
+      "useState()",
+      "createContext()",
+      "useContext()",
+      "custom hooks",
+      "react-icons",
+    ],
     repo: "https://github.com/nataburdyey/sidebar-surfer",
   },
   {
@@ -128,5 +136,18 @@ export const projects = [
     img: windingWays,
     stack: ["HTML", "React"],
     repo: "https://github.com/nataburdyey/winding-ways",
+  },
+];
+
+export const links = [
+  {
+    id: 1,
+    url: "https://github.com/nataburdyey",
+    icon: <FaGithub />,
+  },
+  {
+    id: 2,
+    url: "https://www.linkedin.com/in/natalia-burdyey/",
+    icon: <FaLinkedin />,
   },
 ];
