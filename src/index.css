@@ -369,6 +369,7 @@ img {
   width: 90vw;
   max-width: var(--max-width);
 }
+
 @media (min-width: 992px) {
   /* min-height: 60vh; */
 
@@ -378,6 +379,7 @@ img {
     place-items: center;
     gap: 2rem;
   }
+
   img {
     display: block;
   }
@@ -387,6 +389,7 @@ img {
   color: var(--black-design);
   margin: 0;
 }
+
 .hero-title p {
   font-family: 'Montserrat', monospace;
   margin: 2rem 0;
@@ -394,6 +397,7 @@ img {
   font-size: 1.1rem;
   letter-spacing: 2px;
 }
+
 .hero-title span {
   letter-spacing: 5px;
   border-bottom: 2px solid var(--primary-design);
@@ -405,6 +409,7 @@ img {
   font-style: italic;
   font-weight: 900;
 }
+
 .hero-btn {
   display: inline-block;
   background: var(--primary-design);
@@ -416,6 +421,7 @@ img {
   box-shadow: var(--shadow-1);
   animation: bounce 2s infinite;
 }
+
 .hero-btn:hover {
   background: transparent;
 
@@ -506,4 +512,18 @@ PROJECTS
 
 .stack a:hover {
   background-color: var(--primary-300);
+}
+
+.social-links {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+.social-links a {
+  font-size: 2rem;
+  margin: 0 0.5rem;
+  color: var(--primary-700);
+  transition: var(--transition);
 }

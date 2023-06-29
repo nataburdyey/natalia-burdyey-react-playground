@@ -144,10 +144,12 @@ export const links = [
     id: 1,
     url: "https://github.com/nataburdyey",
     icon: <FaGithub />,
+    color: "#000000",
   },
   {
     id: 2,
     url: "https://www.linkedin.com/in/natalia-burdyey/",
     icon: <FaLinkedin />,
+    color: "#0072b1",
   },
 ];
