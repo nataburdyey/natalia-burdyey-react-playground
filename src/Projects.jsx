@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <section className="projects">
       <div className="title">
-        <h2>React Projects</h2>
+        <h3>React Hook Snippets</h3>
         <div className="title-underline"></div>
       </div>
       <div className="projects-center">
@@ -13,11 +13,7 @@ const Projects = () => {
           const { title, url, img, stack, repo } = project;
           return (
             <div className="project" key={nanoid()}>
-              <a
-                href={url}
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href={url} target="_blank" rel="noreferrer">
                 <h5>{title}</h5>
                 <img src={img} alt={title} className="img" />
               </a>
@@ -29,13 +25,13 @@ const Projects = () => {
                     </span>
                   );
                 })}
-                <a
+                {/* <a
                   href={repo}
                   className="stack stack-item repo"
                   target="_blank"
                 >
                   GitHub Repo
-                </a>
+                </a> */}
               </p>
             </div>
           );
