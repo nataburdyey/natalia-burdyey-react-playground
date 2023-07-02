@@ -1,7 +1,7 @@
 import React from "react";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import cakeMates from "./assets/cake-mates.png";
-import accordionFun from "./assets/accordion-fun.png";
+import accordionFun from "./assets/accordionFun.png";
 import dynamicNavPro from "./assets/dynamicNavPro.png";
 import colorBurst from "./assets/color-burst.png";
 import menuVerse from "./assets/menu-verse.png";
