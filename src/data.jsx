@@ -2,7 +2,7 @@ import React from "react";
 import { nanoid } from "nanoid";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import cakeMates from "./assets/cake-mates.png";
-import accordionFun from "./assets/accordionFun.png";
+import accordionFun from "./assets/accordion-fun.png";
 import dynamicNavPro from "./assets/dynamicNavPro.png";
 import colorBurst from "./assets/color-burst.png";
 import menuVerse from "./assets/menu-verse.png";
@@ -15,6 +15,7 @@ import tabMaster from "./assets/tab-master.png";
 import navbar from "./assets/navbar.png";
 import reactUseReducerCart from "./assets/reactUseReducerCart.png";
 import windingWays from "./assets/winding-ways.png";
+import unsplashMagic from "./assets/unsplash-magic.png";
 
 export const links = [
   {
@@ -104,7 +105,7 @@ export const reactHookSnippets = [
     title: "SmartShopper",
     url: "https://smart-shopper.netlify.app/",
     img: smartShopper,
-    stack: ["useState()", "nanoid", "react-toastify"],
+    stack: ["useState()", "nanoid", "react-toastify", "Local Storage"],
     repo: "https://github.com/nataburdyey/smart-shopper",
   },
   {
@@ -168,18 +169,20 @@ export const reactHookSnippets = [
 export const reactQueryProjects = [
   {
     id: nanoid(),
-    title: "Unsplashify",
-    url: "",
-    img: reactUseReducerCart,
+    title: "UnsplashMagic",
+    url: "https://unsplash-magic.netlify.app/",
+    img: unsplashMagic,
     stack: [
-      "React Query",
+      "react-query",
+      "react-query-devtools",
+      "react-icons",
+      "Unsplash API",
       "Dark Mode",
       "useState()",
       "useFetch()",
       "createContext()",
       "useContext()",
-      "react-icons",
     ],
-    repo: "",
+    repo: "https://github.com/nataburdyey/unsplash-magic",
   },
 ];
