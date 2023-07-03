@@ -11,20 +11,23 @@ const Hero = () => {
             Frontend Playground
           </h2>
           <p>
-            As a dedicated frontend engineer with a deep passion for the field,
-            I am constantly refining my skills and staying up-to-date with the
-            latest trends and technologies.
+            As a passionate frontend engineer, I am dedicated to continuously
+            refining my skills and keeping up with the ever-evolving trends and
+            technologies in the field.
           </p>
           <p>
             This is my personal collection of frontend mini-projects, developed
             to deepen my knowledge and expertise in React.
           </p>
           <p>
+            With a solid foundation in testing, extensive frontend development
+            expertise, a keen eye for quality, and a genuine dedication to
+            exceptional user experiences, I bring a valuable set of skills and
+            capabilities to any project.
+          </p>
+          <p>
             Feel free to connect with me on LinkedIn to engage in further
-            professional discussions. With a strong testing background,
-            expertise in frontend development, meticulous attention to quality,
-            and a passion for exceptional user experiences, I bring valuable
-            skills and capabilities to the table.
+            professional discussions.
           </p>
           <ul className="social-links">
             {links.map((link) => {

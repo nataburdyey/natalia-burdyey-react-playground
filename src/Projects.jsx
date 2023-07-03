@@ -1,6 +1,12 @@
 import ReactHookSnippets from "./ReactHookSnippets";
+import ReactQueryProjects from "./ReactQueryProjects";
 
 const Projects = () => {
-  return <ReactHookSnippets />;
+  return (
+    <>
+      <ReactQueryProjects />,
+      <ReactHookSnippets />
+    </>
+  );
 };
 export default Projects;

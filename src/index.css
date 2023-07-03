@@ -342,6 +342,7 @@ img {
 }
 
 .hero-title h2 {
+  font-family: 'Delius';
   color: var(--black-design);
   font-weight: 500;
   margin: 0;
@@ -393,7 +394,7 @@ PROJECTS
 */
 
 .projects {
-  padding: 5rem 0;
+  padding: 2rem 0;
   font-family: var(--headingFont);
 }
 

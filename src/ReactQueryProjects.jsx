@@ -1,16 +1,16 @@
 import { nanoid } from "nanoid";
-import { reactHookSnippets } from "./data";
+import { reactQueryProjects } from "./data";
 
-const ReactHookSnippets = () => {
+const ReactQueryProjects = () => {
   return (
     <section className="projects">
       <div className="title">
-        <h3>React Hook Snippets</h3>
+        <h3>React Query + External APIs Examples</h3>
         <div className="title-underline"></div>
       </div>
       <div className="projects-center">
-        {reactHookSnippets.map((project) => {
-          const { title, url, img, stack, id, repo } = project;
+        {reactQueryProjects.map((project) => {
+          const { title, url, img, stack, id } = project;
           return (
             <div className="project" key={id}>
               <a href={url} target="_blank" rel="noreferrer">
@@ -25,13 +25,6 @@ const ReactHookSnippets = () => {
                     </span>
                   );
                 })}
-                {/* <a
-               href={repo}
-               className="stack stack-item repo"
-               target="_blank"
-              >
-               GitHub Repo
-              </a> */}
               </p>
             </div>
           );
@@ -40,5 +33,4 @@ const ReactHookSnippets = () => {
     </section>
   );
 };
-
-export default ReactHookSnippets;
+export default ReactQueryProjects;
