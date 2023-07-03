@@ -1,4 +1,4 @@
-import { projects } from "./data";
+import { reactHookSnippets } from "./data";
 import { nanoid } from "nanoid";
 
 const Projects = () => {
@@ -9,10 +9,10 @@ const Projects = () => {
         <div className="title-underline"></div>
       </div>
       <div className="projects-center">
-        {projects.map((project) => {
-          const { title, url, img, stack, repo } = project;
+        {reactHookSnippets.map((project) => {
+          const { title, url, img, stack, id, repo } = project;
           return (
-            <div className="project" key={nanoid()}>
+            <div className="project" key={id}>
               <a href={url} target="_blank" rel="noreferrer">
                 <h5>{title}</h5>
                 <img src={img} alt={title} className="img" />
