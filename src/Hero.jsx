@@ -8,7 +8,7 @@ const Hero = () => {
         <div className="hero-title">
           <h2 style={{ whiteSpace: "pre" }}>
             Welcome to Natalia's {"\n"}
-            Frontend Playground
+            React Playground
           </h2>
           <p>
             As a passionate frontend engineer, I am dedicated to continuously
