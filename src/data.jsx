@@ -175,6 +175,7 @@ export const reactQueryProjects = [
     stack: [
       "react-query",
       "react-query-devtools",
+      "axios",
       "react-icons",
       "Unsplash API",
       "Dark Mode",
