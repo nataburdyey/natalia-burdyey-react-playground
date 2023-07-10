@@ -1,5 +1,6 @@
+import { nanoid } from "nanoid";
 import heroImg from "./assets/online_resume.svg";
-import { links } from "./data";
+import { links, skills } from "./data";
 
 const Hero = () => {
   return (
@@ -7,7 +8,7 @@ const Hero = () => {
       <div className="hero-center">
         <div className="hero-title">
           <h2 style={{ whiteSpace: "pre" }}>
-            Welcome to Natalia's {"\n"}
+            Natalia Burdyey's{"\n"}
             React Playground
           </h2>
           <p>
@@ -42,13 +43,19 @@ const Hero = () => {
               );
             })}
           </ul>
+          <p className="stack">
+            {skills.map((skill) => {
+              return (
+                <span key={nanoid()} className="stack-item">
+                  {skill}
+                </span>
+              );
+            })}
+          </p>
         </div>
-        <img
-          src={heroImg}
-          alt="Natalia Burdyey's Portfolio Projects"
-          className="img"
-        />
+        <img src={heroImg} alt="Natalia Burdyey's Projects" className="img" />
       </div>
+      
     </section>
   );
 };

@@ -16,6 +16,18 @@ import navbar from "./assets/navbar.png";
 import reactUseReducerCart from "./assets/reactUseReducerCart.png";
 import windingWays from "./assets/winding-ways.png";
 import unsplashMagic from "./assets/unsplash-magic.png";
+import sipCraft from "./assets/sip-craft.png";
+
+export const skills = [
+  "JavaScript",
+  "TypeScript",
+  "React.js",
+  "React Router",
+  "Redux",
+  "React Query",
+  "React Testing Library",
+  "Cypress",
+];
 
 export const links = [
   {
@@ -39,11 +51,11 @@ export const reactHookSnippets = [
     url: "https://react-use-reducer-cart.netlify.app/",
     img: reactUseReducerCart,
     stack: [
-      "useState()",
-      "useFetch()",
-      "createContext()",
-      "useContext()",
-      "useReducer()",
+      "useState",
+      "useFetch",
+      "createContext",
+      "useContext",
+      "useReducer",
       "react-icons",
     ],
     repo: "https://github.com/nataburdyey/react-useReducer-cart",
@@ -54,9 +66,9 @@ export const reactHookSnippets = [
     url: "https://dynamic-nav-pro.netlify.app/",
     img: dynamicNavPro,
     stack: [
-      "useState()",
-      "createContext()",
-      "useContext()",
+      "useState",
+      "createContext",
+      "useContext",
       "custom hooks",
       "react-icons",
     ],
@@ -68,9 +80,9 @@ export const reactHookSnippets = [
     url: "https://sidebar-surfer.netlify.app/",
     img: sidebarSurfer,
     stack: [
-      "useState()",
-      "createContext()",
-      "useContext()",
+      "useState",
+      "createContext",
+      "useContext",
       "custom hooks",
       "react-icons",
     ],
@@ -81,7 +93,7 @@ export const reactHookSnippets = [
     title: "NavBarPro",
     url: "https://nav-bar-pro.netlify.app/",
     img: navbar,
-    stack: ["useState()", "useRef()", "react-icons"],
+    stack: ["useState", "useRef", "react-icons"],
     repo: "https://github.com/nataburdyey/nav-pro",
   },
   {
@@ -89,7 +101,7 @@ export const reactHookSnippets = [
     title: "TabMaster",
     url: "https://tab-master.netlify.app/ ",
     img: tabMaster,
-    stack: ["useState()", "useEffect()", "react-icons", "uuid"],
+    stack: ["useState", "useEffect", "react-icons", "uuid"],
     repo: "https://github.com/nataburdyey/tab-master",
   },
   {
@@ -97,7 +109,7 @@ export const reactHookSnippets = [
     title: "SlideEase",
     url: "https://slide-ease.netlify.app/",
     img: slideEase,
-    stack: ["useState()", "useEffect()", "react-icons", "react-slick"],
+    stack: ["useState", "useEffect", "react-icons", "react-slick"],
     repo: "https://github.com/nataburdyey/slide-ease",
   },
   {
@@ -105,7 +117,7 @@ export const reactHookSnippets = [
     title: "SmartShopper",
     url: "https://smart-shopper.netlify.app/",
     img: smartShopper,
-    stack: ["useState()", "nanoid", "react-toastify", "Local Storage"],
+    stack: ["useState", "nanoid", "react-toastify", "Local Storage", "Forms"],
     repo: "https://github.com/nataburdyey/smart-shopper",
   },
   {
@@ -113,7 +125,7 @@ export const reactHookSnippets = [
     title: "ColorBurst",
     url: "https://color-burst.netlify.app/",
     img: colorBurst,
-    stack: ["useState()", "react-toastify", "nanoid"],
+    stack: ["useState", "react-toastify", "nanoid", "Forms"],
     repo: "https://github.com/nataburdyey/color-burst",
   },
   {
@@ -121,7 +133,7 @@ export const reactHookSnippets = [
     title: "TextGenius",
     url: "https://text-genius.netlify.app/",
     img: textGenius,
-    stack: ["useState()", "nanoid"],
+    stack: ["useState", "nanoid", "Forms"],
     repo: "https://github.com/nataburdyey/text-genius",
   },
   {
@@ -129,7 +141,7 @@ export const reactHookSnippets = [
     title: "MenuVerse",
     url: "https://menu-verse.netlify.app/",
     img: menuVerse,
-    stack: ["useState()"],
+    stack: ["useState"],
     repo: "https://github.com/nataburdyey/menuverse",
   },
   {
@@ -137,7 +149,7 @@ export const reactHookSnippets = [
     title: "AccordionFun",
     url: "https://accordion-fun.netlify.app/",
     img: accordionFun,
-    stack: ["useState()", "react-icons"],
+    stack: ["useState", "react-icons"],
     repo: "https://github.com/nataburdyey/accordion-fun",
   },
   {
@@ -145,7 +157,7 @@ export const reactHookSnippets = [
     title: "OpinionSpot",
     url: "https://opinion-spot.netlify.app/",
     img: opinionSpot,
-    stack: ["useState()", "react-icons"],
+    stack: ["useState", "react-icons"],
     repo: "https://github.com/nataburdyey/reviews-app",
   },
   {
@@ -153,7 +165,7 @@ export const reactHookSnippets = [
     title: "CakeMates",
     url: "https://cake-mates.netlify.app/",
     img: cakeMates,
-    stack: ["useState()"],
+    stack: ["useState"],
     repo: "https://github.com/nataburdyey/cake-mates",
   },
   {
@@ -169,6 +181,32 @@ export const reactHookSnippets = [
 export const reactQueryProjects = [
   {
     id: nanoid(),
+    title: "SipCraft",
+    url: "https://sip-craft.netlify.app/",
+    img: sipCraft,
+    stack: [
+      "react-query",
+      "react-query-devtools",
+      "react-router-dom",
+      "Outlet",
+      "Link",
+      "NavLink",
+      "Navigate",
+      "Form",
+      "useRouteError",
+      "useLoaderData",
+      "useNavigation",
+      "action",
+      "redirect",
+      "axios",
+      "styled-components",
+      "react-toastify",
+      "TheCocktailDB API",
+    ],
+    repo: "https://github.com/nataburdyey/sip-craft",
+  },
+  {
+    id: nanoid(),
     title: "UnsplashMagic",
     url: "https://unsplash-magic.netlify.app/",
     img: unsplashMagic,
@@ -177,12 +215,12 @@ export const reactQueryProjects = [
       "react-query-devtools",
       "axios",
       "react-icons",
-      "Unsplash API",
       "Dark Mode",
-      "useState()",
-      "useFetch()",
-      "createContext()",
-      "useContext()",
+      "Unsplash API",
+      "useState",
+      "useFetch",
+      "createContext",
+      "useContext",
     ],
     repo: "https://github.com/nataburdyey/unsplash-magic",
   },

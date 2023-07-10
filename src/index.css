@@ -333,7 +333,7 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr;
     place-items: center;
-    gap: 2rem;
+    gap: 1rem 2rem;
   }
 
   img {
@@ -346,26 +346,20 @@ img {
   color: var(--black-design);
   font-weight: 500;
   margin: 0;
+  margin-bottom: 2rem;;
 }
 
 .hero-title p {
   font-family: 'Delius';
-  margin: 2rem 0;
+  margin: 1rem 0;
   color: var(--grey-900);
   font-size: 1rem;
   letter-spacing: 2px;
 }
 
 .hero-title span {
-  letter-spacing: 5px;
-  border-bottom: 2px solid var(--primary-design);
-  margin: 0 0.5rem;
-  text-align: center;
-  display: inline-block;
-  text-align: center;
-  line-height: 1.25;
-  font-style: italic;
-  font-weight: 900;
+  font-family: 'Courier New', monospace;
+  font-weight: 500;
 }
 
 .hero-btn {
@@ -477,7 +471,7 @@ PROJECTS
   display: flex;
   justify-self: center;
   align-items: center;
-  padding-bottom: 2rem;
+  /* padding-bottom: 2rem; */
 }
 
 .social-links a {
