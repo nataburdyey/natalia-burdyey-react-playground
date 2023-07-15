@@ -1,6 +1,18 @@
 import React from "react";
 import { nanoid } from "nanoid";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
+import {
+  SiJavascript,
+  SiHtml5,
+  SiCss3,
+  SiTypescript,
+  SiReact,
+  SiRedux,
+  SiReactquery,
+  SiTestinglibrary,
+  SiReactrouter,
+  SiCypress,
+} from "react-icons/si";
 import cakeMates from "./assets/cake-mates.png";
 import accordionFun from "./assets/accordion-fun.png";
 import dynamicNavPro from "./assets/dynamicNavPro.png";
@@ -27,6 +39,59 @@ export const skills = [
   "React Query",
   "React Testing Library",
   "Cypress",
+];
+
+export const devTools = [
+  {
+    id: nanoid(),
+    url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    icon: <SiJavascript />,
+  },
+  {
+    id: nanoid(),
+    url: "https://www.typescriptlang.org/",
+    icon: <SiTypescript />,
+  },
+  {
+    id: nanoid(),
+    url: "https://developer.mozilla.org/en-US/docs/Web/HTML",
+    icon: <SiHtml5 />,
+  },
+  {
+    id: nanoid(),
+    url: "https://www.w3.org/Style/CSS/",
+    icon: <SiCss3 />,
+  },
+  {
+    id: nanoid(),
+    url: "https://react.dev/",
+    icon: <SiReact />,
+  },
+  {
+    id: nanoid(),
+    url: "https://reactrouter.com/",
+    icon: <SiReactrouter />,
+  },
+  {
+    id: nanoid(),
+    url: "https://redux.js.org/",
+    icon: <SiRedux />,
+  },
+  {
+    id: nanoid(),
+    url: "https://tanstack.com/query/latest/docs/react/overview",
+    icon: <SiReactquery />,
+  },
+  {
+    id: nanoid(),
+    url: "https://testing-library.com/docs/react-testing-library/intro/",
+    icon: <SiTestinglibrary />,
+  },
+  {
+    id: nanoid(),
+    url: "https://www.cypress.io/",
+    icon: <SiCypress />,
+  },
 ];
 
 export const links = [
@@ -217,11 +282,25 @@ export const reactQueryProjects = [
       "react-icons",
       "Dark Mode",
       "Unsplash API",
-      "useState",
-      "useFetch",
-      "createContext",
-      "useContext",
     ],
     repo: "https://github.com/nataburdyey/unsplash-magic",
+  },
+];
+
+export const bigProjects = [
+  {
+    id: nanoid(),
+    title: "Cushy Comfort",
+    url: "",
+    img: sipCraft,
+    stack: [
+      "React Router 6",
+      "AuthO",
+      "Stripe API",
+      "Axios",
+      "styled-components",
+      "Formspree",
+    ],
+    repo: "",
   },
 ];

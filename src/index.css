@@ -163,6 +163,7 @@ ul {
   width: 100%;
   display: block;
   object-fit: cover;
+  margin-bottom: 1rem;
 }
 
 /* buttons */
@@ -314,7 +315,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 5rem 0 1rem 0;
+  padding: 3rem 0 1rem 0;
 }
 
 img {
@@ -467,15 +468,18 @@ PROJECTS
   background-color: var(--primary-300);
 }
 
+.hero-img {
+  display: grid;
+}
+
 .social-links {
   display: flex;
   justify-self: center;
   align-items: center;
-  /* padding-bottom: 2rem; */
 }
 
 .social-links a {
-  font-size: 2rem;
+  font-size: 1.65rem;
   margin: 0 0.5rem;
   color: var(--primary-700);
   transition: var(--transition);

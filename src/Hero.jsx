@@ -1,6 +1,6 @@
 import { nanoid } from "nanoid";
 import heroImg from "./assets/online_resume.svg";
-import { links, skills } from "./data";
+import { links, skills, devTools } from "./data";
 
 const Hero = () => {
   return (
@@ -33,7 +33,6 @@ const Hero = () => {
           <ul className="social-links">
             {links.map((link) => {
               const { id, url, icon, color } = link;
-
               return (
                 <li key={id}>
                   <a href={url} target="_blank" style={{ color: color }}>
@@ -43,19 +42,23 @@ const Hero = () => {
               );
             })}
           </ul>
-          <p className="stack">
-            {skills.map((skill) => {
+        </div>
+        <div className="hero-img">
+          <img src={heroImg} alt="Natalia Burdyey's Projects" className="img" />
+          <ul className="social-links">
+            {devTools.map((tool) => {
+              const { id, url, icon } = tool;
               return (
-                <span key={nanoid()} className="stack-item">
-                  {skill}
-                </span>
+                <li key={id}>
+                  <a href={url} target="_blank">
+                    {icon}
+                  </a>
+                </li>
               );
             })}
-          </p>
+          </ul>
         </div>
-        <img src={heroImg} alt="Natalia Burdyey's Projects" className="img" />
       </div>
-      
     </section>
   );
 };
