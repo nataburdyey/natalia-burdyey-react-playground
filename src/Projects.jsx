@@ -1,13 +1,11 @@
-import StateManagement from "./StateManagement";
+import LargeScaleProjects from "./LargeScaleProjects";
 import ReactHookSnippets from "./ReactHookSnippets";
 import ReactQueryProjects from "./ReactQueryProjects";
-import RoutingAndNavigation from "./RoutingAndNavigation";
 
 const Projects = () => {
   return (
     <>
-      {/* <RoutingAndNavigation/>
-      <StateManagement /> */}
+      <LargeScaleProjects />
       <ReactQueryProjects />,
       <ReactHookSnippets />,
     </>

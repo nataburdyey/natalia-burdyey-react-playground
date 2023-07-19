@@ -29,6 +29,7 @@ import reactUseReducerCart from "./assets/reactUseReducerCart.png";
 import windingWays from "./assets/winding-ways.png";
 import unsplashMagic from "./assets/unsplash-magic.png";
 import sipCraft from "./assets/sip-craft.png";
+import cushyComfort from "./assets/cushy-comfort.png";
 
 export const skills = [
   "JavaScript",
@@ -287,20 +288,22 @@ export const reactQueryProjects = [
   },
 ];
 
-export const bigProjects = [
+export const largeScaleProjects = [
   {
     id: nanoid(),
     title: "Cushy Comfort",
-    url: "",
-    img: sipCraft,
+    url: "https://cushy-comfort.netlify.app/",
+    img: cushyComfort,
     stack: [
       "React Router 6",
       "AuthO",
       "Stripe API",
       "Axios",
-      "styled-components",
       "Formspree",
+      "Netlify functions",
+      "Styled Components",
+      
     ],
-    repo: "",
+    repo: "https://github.com/nataburdyey/e-commerce-app",
   },
 ];
