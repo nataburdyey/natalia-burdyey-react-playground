@@ -15,17 +15,17 @@ import {
 } from 'react-icons/si';
 import cakeMates from './assets/cake-mates.png';
 import accordionFun from './assets/accordion-fun.png';
-import dynamicNavPro from './assets/dynamicNavPro.png';
+import dynamicNavPro from './assets/dynamic-nav.png';
 import colorBurst from './assets/color-burst.png';
 import menuVerse from './assets/menu-verse.png';
 import slideEase from './assets/slide-ease.png';
 import sidebarSurfer from './assets/sidebarSurfer.png';
-import smartShopper from './assets/shop-smart.png';
+import smartShopper from './assets/smart-shopper.png';
 import opinionSpot from './assets/opinion-spot.png';
 import textGenius from './assets/text-genius.png';
 import tabMaster from './assets/tab-master.png';
 import navbar from './assets/navbar.png';
-import reactUseReducerCart from './assets/reactUseReducerCart.png';
+import reactUseReducerCart from './assets/use-reducer-cart.png';
 import windingWays from './assets/winding-ways.png';
 import unsplashMagic from './assets/unsplash-magic.png';
 import sipCraft from './assets/sip-craft.png';
@@ -122,7 +122,7 @@ export const reactHookSnippets = [
       'createContext',
       'useContext',
       'useReducer',
-      'react-icons',
+      'React Icons',
     ],
     repo: 'https://github.com/nataburdyey/react-useReducer-cart',
   },
@@ -136,7 +136,7 @@ export const reactHookSnippets = [
       'createContext',
       'useContext',
       'custom hooks',
-      'react-icons',
+      'React Icons',
     ],
     repo: 'https://github.com/nataburdyey/dynamic-nav-pro',
   },
@@ -150,16 +150,16 @@ export const reactHookSnippets = [
       'createContext',
       'useContext',
       'custom hooks',
-      'react-icons',
+      'React Icons',
     ],
     repo: 'https://github.com/nataburdyey/sidebar-surfer',
   },
   {
     id: nanoid(),
-    title: 'NavBarPro',
-    url: 'https://nav-bar-pro.netlify.app/',
+    title: 'Navtastic',
+    url: 'https://navtastic.netlify.app/',
     img: navbar,
-    stack: ['useState', 'useRef', 'react-icons'],
+    stack: ['useState', 'useRef', 'React Icons'],
     repo: 'https://github.com/nataburdyey/nav-pro',
   },
   {
@@ -167,7 +167,7 @@ export const reactHookSnippets = [
     title: 'TabMaster',
     url: 'https://tab-master.netlify.app/ ',
     img: tabMaster,
-    stack: ['useState', 'useEffect', 'react-icons', 'uuid'],
+    stack: ['useState', 'useEffect', 'uuid', 'React Icons'],
     repo: 'https://github.com/nataburdyey/tab-master',
   },
   {
@@ -175,7 +175,7 @@ export const reactHookSnippets = [
     title: 'SlideEase',
     url: 'https://slide-ease.netlify.app/',
     img: slideEase,
-    stack: ['useState', 'useEffect', 'react-icons', 'react-slick'],
+    stack: ['useState', 'useEffect', 'React Icons', 'React Slick Carousel'],
     repo: 'https://github.com/nataburdyey/slide-ease',
   },
   {
@@ -183,7 +183,7 @@ export const reactHookSnippets = [
     title: 'SmartShopper',
     url: 'https://smart-shopper.netlify.app/',
     img: smartShopper,
-    stack: ['useState', 'nanoid', 'react-toastify', 'Local Storage', 'Forms'],
+    stack: ['useState', 'nanoid', 'form', 'Local Storage', 'React-Toastify'],
     repo: 'https://github.com/nataburdyey/smart-shopper',
   },
   {
@@ -191,7 +191,7 @@ export const reactHookSnippets = [
     title: 'ColorBurst',
     url: 'https://color-burst.netlify.app/',
     img: colorBurst,
-    stack: ['useState', 'react-toastify', 'nanoid', 'Forms'],
+    stack: ['useState', 'nanoid', 'form', 'Navigator: clipboard', 'React-Toastify'],
     repo: 'https://github.com/nataburdyey/color-burst',
   },
   {
@@ -199,7 +199,7 @@ export const reactHookSnippets = [
     title: 'TextGenius',
     url: 'https://text-genius.netlify.app/',
     img: textGenius,
-    stack: ['useState', 'nanoid', 'Forms'],
+    stack: ['useState', 'nanoid', 'form'],
     repo: 'https://github.com/nataburdyey/text-genius',
   },
   {
@@ -215,7 +215,7 @@ export const reactHookSnippets = [
     title: 'AccordionFun',
     url: 'https://accordion-fun.netlify.app/',
     img: accordionFun,
-    stack: ['useState', 'react-icons'],
+    stack: ['useState', 'React Icons'],
     repo: 'https://github.com/nataburdyey/accordion-fun',
   },
   {
@@ -223,7 +223,7 @@ export const reactHookSnippets = [
     title: 'OpinionSpot',
     url: 'https://opinion-spot.netlify.app/',
     img: opinionSpot,
-    stack: ['useState', 'react-icons'],
+    stack: ['useState', 'React Icons'],
     repo: 'https://github.com/nataburdyey/reviews-app',
   },
   {
