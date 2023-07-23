@@ -29,7 +29,9 @@ import reactUseReducerCart from './assets/use-reducer-cart.png';
 import windingWays from './assets/winding-ways.png';
 import unsplashMagic from './assets/unsplash-magic.png';
 import sipCraft from './assets/sip-craft.png';
-import cushyComfort from './assets/cushy-comfort.png';
+import cushyComfort from './assets/cushycomfort.png';
+import reduxToolkitCart from './assets/redux-toolkit-cart.png';
+import contentfulCms from './assets/contentful-cms.png';
 
 export const skills = [
   'JavaScript',
@@ -191,7 +193,13 @@ export const reactHookSnippets = [
     title: 'ColorBurst',
     url: 'https://color-burst.netlify.app/',
     img: colorBurst,
-    stack: ['useState', 'nanoid', 'form', 'Navigator: clipboard', 'React-Toastify'],
+    stack: [
+      'useState',
+      'nanoid',
+      'form',
+      'Navigator: clipboard',
+      'React-Toastify',
+    ],
     repo: 'https://github.com/nataburdyey/color-burst',
   },
   {
@@ -244,21 +252,21 @@ export const reactHookSnippets = [
   },
 ];
 
-export const reactQueryProjects = [
+export const reduxReactQueryRouterProjects = [
   {
     id: nanoid(),
-    title: 'SipCraft',
-    url: 'https://sip-craft.netlify.app/',
-    img: sipCraft,
+    title: 'ReduxToolkitCart',
+    url: 'https://toolkit-cart-app.netlify.app/',
+    img: reduxToolkitCart,
     stack: [
-      'React Query',
-      'React Router 6',
-      'Axios',
-      'Styled Components',
-      'React-Toastify',
-      'TheCocktailDB API',
+      'Redux',
+      'Redux Toolkit',
+      'Immer',
+      'Redux Thunk',
+      'Redux DevTools',
+      'Heroicons',
     ],
-    repo: 'https://github.com/nataburdyey/sip-craft',
+    repo: '',
   },
   {
     id: nanoid(),
@@ -277,9 +285,24 @@ export const reactQueryProjects = [
   },
   {
     id: nanoid(),
-    title: 'ContentfulCMS',
-    url: '',
+    title: 'SipCraft',
+    url: 'https://sip-craft.netlify.app/',
     img: sipCraft,
+    stack: [
+      'React Query',
+      'React Router 6',
+      'Axios',
+      'Styled Components',
+      'React-Toastify',
+      'TheCocktailDB API',
+    ],
+    repo: 'https://github.com/nataburdyey/sip-craft',
+  },
+  {
+    id: nanoid(),
+    title: 'Contentful CMS',
+    url: '',
+    img: contentfulCms,
     stack: ['Contentful API'],
     repo: '',
   },
@@ -288,10 +311,11 @@ export const reactQueryProjects = [
 export const largeScaleProjects = [
   {
     id: nanoid(),
-    title: 'Cushy Comfort',
+    title: 'e-commerce: Cushy Comfort',
     url: 'https://cushy-comfort.netlify.app/',
     img: cushyComfort,
     stack: [
+      'React Context API',
       'React Router 6',
       'AuthO',
       'Stripe API',
@@ -299,6 +323,7 @@ export const largeScaleProjects = [
       'Formspree',
       'Netlify Functions',
       'Styled Components',
+      'React Icons'
     ],
     repo: 'https://github.com/nataburdyey/e-commerce-app',
   },
@@ -308,9 +333,16 @@ export const stateManagementProjects = [
   {
     id: nanoid(),
     title: 'ReduxToolkitCart',
-    url: '',
-    img: cushyComfort,
-    stack: ['Redux', 'Redux Toolkit', 'Redux DevTools', 'Immer', 'Heroicons'],
+    url: 'https://toolkit-cart-app.netlify.app/',
+    img: reduxToolkitCart,
+    stack: [
+      'Redux',
+      'Redux Toolkit',
+      'Immer',
+      'Redux Thunk',
+      'Redux DevTools',
+      'Heroicons',
+    ],
     repo: '',
   },
 ];

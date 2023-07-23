@@ -9,7 +9,7 @@ const Hero = () => {
         <div className='hero-title'>
           <h2 style={{ whiteSpace: 'pre' }}>
             Natalia Burdyey's{'\n'}
-            React Lab
+            React Playground
           </h2>
           <p>
             As a passionate frontend engineer, I am committed to constant

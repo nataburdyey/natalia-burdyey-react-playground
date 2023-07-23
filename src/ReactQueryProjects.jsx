@@ -1,5 +1,5 @@
 import { nanoid } from "nanoid";
-import { reactQueryProjects } from "./data";
+import { reduxReactQueryRouterProjects } from "./data";
 
 const ReactQueryProjects = () => {
   return (
@@ -9,7 +9,7 @@ const ReactQueryProjects = () => {
         <div className="title-underline"></div>
       </div>
       <div className="projects-center">
-        {reactQueryProjects.map((project) => {
+        {reduxReactQueryRouterProjects.map((project) => {
           const { title, url, img, stack, id } = project;
           return (
             <div className="project" key={id}>
