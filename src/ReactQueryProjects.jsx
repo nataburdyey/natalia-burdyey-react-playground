@@ -5,7 +5,7 @@ const ReactQueryProjects = () => {
   return (
     <section className="projects">
       <div className="title" style={{ whiteSpace: "pre" }}>
-        <h3>React Query, React Router,{"\n"}and External APIs</h3>
+        <h3>Redux, React Query, React Router,{"\n"}and External APIs</h3>
         <div className="title-underline"></div>
       </div>
       <div className="projects-center">
