@@ -342,7 +342,7 @@ export const largeScaleProjects = [
       'Pagination',
       'Styled Components',
       'React Icons',
-      'React-tostify'
+      'React-Tostify'
     ],
     repo: 'https://github.com/nataburdyey/job-hunt-x',
   },

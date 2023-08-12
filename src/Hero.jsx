@@ -28,7 +28,7 @@ const Hero = () => {
           </p>
           <p>
             Feel free to connect with me on LinkedIn to engage in further
-            professional discussions
+            professional discussions.
           </p>
           <ul className='social-links'>
             {links.map((link) => {
