@@ -32,6 +32,7 @@ import sipCraft from './assets/sip-craft.png';
 import cushyComfort from './assets/cushycomfort.png';
 import reduxToolkitCart from './assets/redux-toolkit-cart.png';
 import contentfulCms from './assets/contentful-cms.png';
+import jobhuntx from './assets/jobhuntx.png';
 
 export const skills = [
   'JavaScript',
@@ -326,6 +327,24 @@ export const largeScaleProjects = [
       'React Icons'
     ],
     repo: 'https://github.com/nataburdyey/e-commerce-app',
+  },
+  {
+    id: nanoid(),
+    title: 'Job tracking app: JobHuntX',
+    url: 'https://jobhuntx.netlify.app/',
+    img: jobhuntx,
+    stack: [
+      'React Router 6',
+      'Redux Toolkit',
+      'Recharts',
+      'Axios',
+      'Local Storage',
+      'Pagination',
+      'Styled Components',
+      'React Icons',
+      'React-tostify'
+    ],
+    repo: 'https://github.com/nataburdyey/job-hunt-x',
   },
 ];
 

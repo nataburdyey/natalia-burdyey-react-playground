@@ -27,8 +27,8 @@ const Hero = () => {
             skills and capabilities to every project I undertake.
           </p>
           <p>
-            Let's connect on LinkedIn to engage in further professional
-            discussions.
+            Feel free to connect with me on LinkedIn to engage in further
+            professional discussions
           </p>
           <ul className='social-links'>
             {links.map((link) => {

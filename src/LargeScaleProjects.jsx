@@ -5,7 +5,7 @@ const ReactQueryProjects = () => {
   return (
     <section className="projects">
       <div className="title" style={{ whiteSpace: "pre" }}>
-        <h3>Auth0 and Stripe Integration</h3>
+        <h3>Complex Projects</h3>
         <div className="title-underline"></div>
       </div>
       <div className="projects-center">
