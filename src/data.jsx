@@ -121,7 +121,7 @@ export const reactHookSnippets = [
     img: reactUseReducerCart,
     stack: [
       'useState',
-      'useFetch',
+      'useEffect',
       'createContext',
       'useContext',
       'useReducer',

@@ -1,11 +1,11 @@
 import { nanoid } from "nanoid";
 import { largeScaleProjects } from "./data";
 
-const ReactQueryProjects = () => {
+const LargeScaleProjects = () => {
   return (
     <section className="projects">
       <div className="title" style={{ whiteSpace: "pre" }}>
-        <h3>Complex Projects</h3>
+        <h3>Large-Scale Projects</h3>
         <div className="title-underline"></div>
       </div>
       <div className="projects-center">
@@ -33,4 +33,4 @@ const ReactQueryProjects = () => {
     </section>
   );
 };
-export default ReactQueryProjects;
+export default LargeScaleProjects;
