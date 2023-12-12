@@ -282,7 +282,7 @@ export const reduxReactQueryRouterProjects = [
   {
     id: nanoid(),
     title: 'Photo Album',
-    url: 'slingacademy-photo-album.netlify.app/',
+    url: 'https://slingacademy-photo-album.netlify.app/',
     img: photoAlbum,
     stack: [
       'React Query',
