@@ -33,6 +33,9 @@ import cushyComfort from './assets/cushycomfort.png';
 import reduxToolkitCart from './assets/redux-toolkit-cart.png';
 import contentfulCms from './assets/contentful-cms.png';
 import jobhuntx from './assets/jobhuntx.png';
+import dimensionExplorer from './assets/dimension-explorer.png';
+import trainTracker from './assets/train-tracker-app.png';
+import photoAlbum from './assets/photo-album.png';
 
 export const skills = [
   'JavaScript',
@@ -256,6 +259,82 @@ export const reactHookSnippets = [
 export const reduxReactQueryRouterProjects = [
   {
     id: nanoid(),
+    title: 'Dimension Explorer',
+    url: 'https://dimension-explorer.netlify.app/',
+    img: dimensionExplorer,
+    stack: [
+      'React Query',
+      'React DaisyUI',
+      'Tailwind CSS',
+      'Observable Plot',
+      'react-range-slider-input',
+    ],
+    repo: 'https://github.com/nataburdyey/dimension-explorer',
+  },
+  {
+    id: nanoid(),
+    title: 'Train Tracker',
+    url: 'https://wmata-train-tracker.netlify.app/',
+    img: trainTracker,
+    stack: ['React Hooks', 'WMATA API', 'icones.js.org'],
+    repo: 'https://github.com/nataburdyey/train-tracker',
+  },
+  {
+    id: nanoid(),
+    title: 'Photo Album',
+    url: 'slingacademy-photo-album.netlify.app/',
+    img: photoAlbum,
+    stack: [
+      'React Query',
+      'Tailwind CSS',
+      'react-infinite-scroll-component',
+      'react-use',
+      'react-dnd',
+      'react-dnd-html5-backend',
+      'react-dnd-touch-backend',
+      'Slingacademy API',
+      'React Icons'
+    ],
+    repo: 'https://github.com/nataburdyey/photo-album-coding-challenge',
+  },
+  {
+    id: nanoid(),
+    title: 'e-commerce: Cushy Comfort',
+    url: 'https://cushy-comfort.netlify.app/',
+    img: cushyComfort,
+    stack: [
+      'React Context API',
+      'React Router 6',
+      'AuthO',
+      'Stripe API',
+      'Axios',
+      'Formspree',
+      'Netlify Functions',
+      'Styled Components',
+      'React Icons',
+    ],
+    repo: 'https://github.com/nataburdyey/e-commerce-app',
+  },
+  {
+    id: nanoid(),
+    title: 'Job tracking app: JobHuntX',
+    url: 'https://jobhuntx.netlify.app/',
+    img: jobhuntx,
+    stack: [
+      'React Router 6',
+      'Redux Toolkit',
+      'Recharts',
+      'Axios',
+      'Local Storage',
+      'Pagination',
+      'Styled Components',
+      'React Icons',
+      'React-Tostify',
+    ],
+    repo: 'https://github.com/nataburdyey/job-hunt-x',
+  },
+  {
+    id: nanoid(),
     title: 'ReduxToolkitCart',
     url: 'https://toolkit-cart-app.netlify.app/',
     img: reduxToolkitCart,
@@ -306,45 +385,6 @@ export const reduxReactQueryRouterProjects = [
     img: contentfulCms,
     stack: ['Contentful API'],
     repo: '',
-  },
-];
-
-export const largeScaleProjects = [
-  {
-    id: nanoid(),
-    title: 'e-commerce: Cushy Comfort',
-    url: 'https://cushy-comfort.netlify.app/',
-    img: cushyComfort,
-    stack: [
-      'React Context API',
-      'React Router 6',
-      'AuthO',
-      'Stripe API',
-      'Axios',
-      'Formspree',
-      'Netlify Functions',
-      'Styled Components',
-      'React Icons'
-    ],
-    repo: 'https://github.com/nataburdyey/e-commerce-app',
-  },
-  {
-    id: nanoid(),
-    title: 'Job tracking app: JobHuntX',
-    url: 'https://jobhuntx.netlify.app/',
-    img: jobhuntx,
-    stack: [
-      'React Router 6',
-      'Redux Toolkit',
-      'Recharts',
-      'Axios',
-      'Local Storage',
-      'Pagination',
-      'Styled Components',
-      'React Icons',
-      'React-Tostify'
-    ],
-    repo: 'https://github.com/nataburdyey/job-hunt-x',
   },
 ];
 
