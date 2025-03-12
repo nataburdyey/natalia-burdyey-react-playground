@@ -36,6 +36,7 @@ import jobhuntx from "./assets/jobhuntx.png";
 import dimensionExplorer from "./assets/dimension-explorer.png";
 import trainTracker from "./assets/train-tracker-app.png";
 import photoAlbum from "./assets/photo-album.png";
+import profileCard from "./great-frontend-projects/profile-card/designs/Desktop.jpg";
 
 export const skills = [
   "JavaScript",
@@ -119,9 +120,9 @@ export const links = [
 export const greatFrontEndProjects = [
   {
     id: nanoid(),
-    title: "ReactUseReducerCart",
-    url: "https://react-use-reducer-cart.netlify.app/",
-    img: reactUseReducerCart,
+    title: "Profile Card",
+    url: "/great-frontend/profile-card",
+    img: profileCard,
     stack: [
       "useState",
       "useEffect",
@@ -130,7 +131,6 @@ export const greatFrontEndProjects = [
       "useReducer",
       "React Icons",
     ],
-    repo: "https://github.com/nataburdyey/react-useReducer-cart",
   },
   {
     id: nanoid(),

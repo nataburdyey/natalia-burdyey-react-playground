@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.profile-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 300px;
+  margin: 20px;
+}
+
+.profile-name {
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.profile-title {
+  color: #666;
+  font-size: 1rem;
+  margin-bottom: 12px;
+}
+
+.profile-description {
+  color: #777;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.credits {
+  color: #777;
+  position: fixed;
+  bottom: 24px;
+  left: 24px;
+  font-size: 11px;
+  text-align: center;
+}
+
+.credits a {
+  color: #000;
+  font-weight: bold;
+}

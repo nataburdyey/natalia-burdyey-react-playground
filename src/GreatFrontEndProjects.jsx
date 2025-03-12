@@ -1,5 +1,7 @@
 import { nanoid } from "nanoid";
 import { greatFrontEndProjects } from "./data";
+import { Outlet } from "react-router-dom";
+import { ProfileCard } from "./great-frontend-projects/profile-card/ProfileCard";
 
 const GreatFrontEndProjects = () => {
   return (
@@ -19,7 +21,7 @@ const GreatFrontEndProjects = () => {
           const { title, url, img, stack, id, repo } = project;
           return (
             <div className="project" key={id}>
-              <a href={url} target="_blank" rel="noreferrer">
+              <a href={url}>
                 <h5>{title}</h5>
                 <img src={img} alt={title} className="img" />
               </a>
@@ -31,13 +33,6 @@ const GreatFrontEndProjects = () => {
                     </span>
                   );
                 })}
-                {/* <a
-               href={repo}
-               className="stack stack-item repo"
-               target="_blank"
-              >
-               GitHub Repo
-              </a> */}
               </p>
             </div>
           );
