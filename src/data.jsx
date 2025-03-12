@@ -1,6 +1,6 @@
-import React from 'react';
-import { nanoid } from 'nanoid';
-import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import React from "react";
+import { nanoid } from "nanoid";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 import {
   SiJavascript,
   SiHtml5,
@@ -12,91 +12,91 @@ import {
   SiTestinglibrary,
   SiReactrouter,
   SiCypress,
-} from 'react-icons/si';
-import cakeMates from './assets/cake-mates.png';
-import accordionFun from './assets/accordion-fun.png';
-import dynamicNavPro from './assets/dynamic-nav.png';
-import colorBurst from './assets/color-burst.png';
-import menuVerse from './assets/menu-verse.png';
-import slideEase from './assets/slide-ease.png';
-import sidebarSurfer from './assets/sidebarSurfer.png';
-import smartShopper from './assets/smart-shopper.png';
-import opinionSpot from './assets/opinion-spot.png';
-import textGenius from './assets/text-genius.png';
-import tabMaster from './assets/tab-master.png';
-import navbar from './assets/navbar.png';
-import reactUseReducerCart from './assets/use-reducer-cart.png';
-import windingWays from './assets/winding-ways.png';
-import unsplashMagic from './assets/unsplash-magic.png';
-import sipCraft from './assets/sip-craft.png';
-import cushyComfort from './assets/cushycomfort.png';
-import reduxToolkitCart from './assets/redux-toolkit-cart.png';
-import contentfulCms from './assets/contentful-cms.png';
-import jobhuntx from './assets/jobhuntx.png';
-import dimensionExplorer from './assets/dimension-explorer.png';
-import trainTracker from './assets/train-tracker-app.png';
-import photoAlbum from './assets/photo-album.png';
+} from "react-icons/si";
+import cakeMates from "./assets/cake-mates.png";
+import accordionFun from "./assets/accordion-fun.png";
+import dynamicNavPro from "./assets/dynamic-nav.png";
+import colorBurst from "./assets/color-burst.png";
+import menuVerse from "./assets/menu-verse.png";
+import slideEase from "./assets/slide-ease.png";
+import sidebarSurfer from "./assets/sidebarSurfer.png";
+import smartShopper from "./assets/smart-shopper.png";
+import opinionSpot from "./assets/opinion-spot.png";
+import textGenius from "./assets/text-genius.png";
+import tabMaster from "./assets/tab-master.png";
+import navbar from "./assets/navbar.png";
+import reactUseReducerCart from "./assets/use-reducer-cart.png";
+import windingWays from "./assets/winding-ways.png";
+import unsplashMagic from "./assets/unsplash-magic.png";
+import sipCraft from "./assets/sip-craft.png";
+import cushyComfort from "./assets/cushycomfort.png";
+import reduxToolkitCart from "./assets/redux-toolkit-cart.png";
+import contentfulCms from "./assets/contentful-cms.png";
+import jobhuntx from "./assets/jobhuntx.png";
+import dimensionExplorer from "./assets/dimension-explorer.png";
+import trainTracker from "./assets/train-tracker-app.png";
+import photoAlbum from "./assets/photo-album.png";
 
 export const skills = [
-  'JavaScript',
-  'TypeScript',
-  'React.js',
-  'React Router',
-  'Redux',
-  'React Query',
-  'React Testing Library',
-  'Cypress',
+  "JavaScript",
+  "TypeScript",
+  "React.js",
+  "React Router",
+  "Redux",
+  "React Query",
+  "React Testing Library",
+  "Cypress",
 ];
 
 export const devTools = [
   {
     id: nanoid(),
-    url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
+    url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
     icon: <SiJavascript />,
   },
   {
     id: nanoid(),
-    url: 'https://www.typescriptlang.org/',
+    url: "https://www.typescriptlang.org/",
     icon: <SiTypescript />,
   },
   {
     id: nanoid(),
-    url: 'https://developer.mozilla.org/en-US/docs/Web/HTML',
+    url: "https://developer.mozilla.org/en-US/docs/Web/HTML",
     icon: <SiHtml5 />,
   },
   {
     id: nanoid(),
-    url: 'https://www.w3.org/Style/CSS/',
+    url: "https://www.w3.org/Style/CSS/",
     icon: <SiCss3 />,
   },
   {
     id: nanoid(),
-    url: 'https://react.dev/',
+    url: "https://react.dev/",
     icon: <SiReact />,
   },
   {
     id: nanoid(),
-    url: 'https://reactrouter.com/',
+    url: "https://reactrouter.com/",
     icon: <SiReactrouter />,
   },
   {
     id: nanoid(),
-    url: 'https://redux.js.org/',
+    url: "https://redux.js.org/",
     icon: <SiRedux />,
   },
   {
     id: nanoid(),
-    url: 'https://tanstack.com/query/latest/docs/react/overview',
+    url: "https://tanstack.com/query/latest/docs/react/overview",
     icon: <SiReactquery />,
   },
   {
     id: nanoid(),
-    url: 'https://testing-library.com/docs/react-testing-library/intro/',
+    url: "https://testing-library.com/docs/react-testing-library/intro/",
     icon: <SiTestinglibrary />,
   },
   {
     id: nanoid(),
-    url: 'https://www.cypress.io/',
+    url: "https://www.cypress.io/",
     icon: <SiCypress />,
   },
 ];
@@ -104,304 +104,350 @@ export const devTools = [
 export const links = [
   {
     id: nanoid(),
-    url: 'https://github.com/nataburdyey',
+    url: "https://github.com/nataburdyey",
     icon: <FaGithub />,
-    color: '#000000',
+    color: "#000000",
   },
   {
     id: nanoid(),
-    url: 'https://www.linkedin.com/in/natalia-burdyey/',
+    url: "https://www.linkedin.com/in/natalia-burdyey/",
     icon: <FaLinkedin />,
-    color: '#0072b1',
+    color: "#0072b1",
+  },
+];
+
+export const greatFrontEndProjects = [
+  {
+    id: nanoid(),
+    title: "ReactUseReducerCart",
+    url: "https://react-use-reducer-cart.netlify.app/",
+    img: reactUseReducerCart,
+    stack: [
+      "useState",
+      "useEffect",
+      "createContext",
+      "useContext",
+      "useReducer",
+      "React Icons",
+    ],
+    repo: "https://github.com/nataburdyey/react-useReducer-cart",
+  },
+  {
+    id: nanoid(),
+    title: "DynamicNavPro",
+    url: "https://dynamic-nav-pro.netlify.app/",
+    img: dynamicNavPro,
+    stack: [
+      "useState",
+      "createContext",
+      "useContext",
+      "custom hooks",
+      "React Icons",
+    ],
+    repo: "https://github.com/nataburdyey/dynamic-nav-pro",
+  },
+  {
+    id: nanoid(),
+    title: "SidebarSurfer",
+    url: "https://sidebar-surfer.netlify.app/",
+    img: sidebarSurfer,
+    stack: [
+      "useState",
+      "createContext",
+      "useContext",
+      "custom hooks",
+      "React Icons",
+    ],
+    repo: "https://github.com/nataburdyey/sidebar-surfer",
   },
 ];
 
 export const reactHookSnippets = [
   {
     id: nanoid(),
-    title: 'ReactUseReducerCart',
-    url: 'https://react-use-reducer-cart.netlify.app/',
+    title: "ReactUseReducerCart",
+    url: "https://react-use-reducer-cart.netlify.app/",
     img: reactUseReducerCart,
     stack: [
-      'useState',
-      'useEffect',
-      'createContext',
-      'useContext',
-      'useReducer',
-      'React Icons',
+      "useState",
+      "useEffect",
+      "createContext",
+      "useContext",
+      "useReducer",
+      "React Icons",
     ],
-    repo: 'https://github.com/nataburdyey/react-useReducer-cart',
+    repo: "https://github.com/nataburdyey/react-useReducer-cart",
   },
   {
     id: nanoid(),
-    title: 'DynamicNavPro',
-    url: 'https://dynamic-nav-pro.netlify.app/',
+    title: "DynamicNavPro",
+    url: "https://dynamic-nav-pro.netlify.app/",
     img: dynamicNavPro,
     stack: [
-      'useState',
-      'createContext',
-      'useContext',
-      'custom hooks',
-      'React Icons',
+      "useState",
+      "createContext",
+      "useContext",
+      "custom hooks",
+      "React Icons",
     ],
-    repo: 'https://github.com/nataburdyey/dynamic-nav-pro',
+    repo: "https://github.com/nataburdyey/dynamic-nav-pro",
   },
   {
     id: nanoid(),
-    title: 'SidebarSurfer',
-    url: 'https://sidebar-surfer.netlify.app/',
+    title: "SidebarSurfer",
+    url: "https://sidebar-surfer.netlify.app/",
     img: sidebarSurfer,
     stack: [
-      'useState',
-      'createContext',
-      'useContext',
-      'custom hooks',
-      'React Icons',
+      "useState",
+      "createContext",
+      "useContext",
+      "custom hooks",
+      "React Icons",
     ],
-    repo: 'https://github.com/nataburdyey/sidebar-surfer',
+    repo: "https://github.com/nataburdyey/sidebar-surfer",
   },
   {
     id: nanoid(),
-    title: 'Navtastic',
-    url: 'https://navtastic.netlify.app/',
+    title: "Navtastic",
+    url: "https://navtastic.netlify.app/",
     img: navbar,
-    stack: ['useState', 'useRef', 'React Icons'],
-    repo: 'https://github.com/nataburdyey/nav-pro',
+    stack: ["useState", "useRef", "React Icons"],
+    repo: "https://github.com/nataburdyey/nav-pro",
   },
   {
     id: nanoid(),
-    title: 'TabMaster',
-    url: 'https://tab-master.netlify.app/ ',
+    title: "TabMaster",
+    url: "https://tab-master.netlify.app/ ",
     img: tabMaster,
-    stack: ['useState', 'useEffect', 'uuid', 'React Icons'],
-    repo: 'https://github.com/nataburdyey/tab-master',
+    stack: ["useState", "useEffect", "uuid", "React Icons"],
+    repo: "https://github.com/nataburdyey/tab-master",
   },
   {
     id: nanoid(),
-    title: 'SlideEase',
-    url: 'https://slide-ease.netlify.app/',
+    title: "SlideEase",
+    url: "https://slide-ease.netlify.app/",
     img: slideEase,
-    stack: ['useState', 'useEffect', 'React Icons', 'React Slick Carousel'],
-    repo: 'https://github.com/nataburdyey/slide-ease',
+    stack: ["useState", "useEffect", "React Icons", "React Slick Carousel"],
+    repo: "https://github.com/nataburdyey/slide-ease",
   },
   {
     id: nanoid(),
-    title: 'SmartShopper',
-    url: 'https://smart-shopper.netlify.app/',
+    title: "SmartShopper",
+    url: "https://smart-shopper.netlify.app/",
     img: smartShopper,
-    stack: ['useState', 'nanoid', 'form', 'Local Storage', 'React-Toastify'],
-    repo: 'https://github.com/nataburdyey/smart-shopper',
+    stack: ["useState", "nanoid", "form", "Local Storage", "React-Toastify"],
+    repo: "https://github.com/nataburdyey/smart-shopper",
   },
   {
     id: nanoid(),
-    title: 'ColorBurst',
-    url: 'https://color-burst.netlify.app/',
+    title: "ColorBurst",
+    url: "https://color-burst.netlify.app/",
     img: colorBurst,
     stack: [
-      'useState',
-      'nanoid',
-      'form',
-      'Navigator: clipboard',
-      'React-Toastify',
+      "useState",
+      "nanoid",
+      "form",
+      "Navigator: clipboard",
+      "React-Toastify",
     ],
-    repo: 'https://github.com/nataburdyey/color-burst',
+    repo: "https://github.com/nataburdyey/color-burst",
   },
   {
     id: nanoid(),
-    title: 'TextGenius',
-    url: 'https://text-genius.netlify.app/',
+    title: "TextGenius",
+    url: "https://text-genius.netlify.app/",
     img: textGenius,
-    stack: ['useState', 'nanoid', 'form'],
-    repo: 'https://github.com/nataburdyey/text-genius',
+    stack: ["useState", "nanoid", "form"],
+    repo: "https://github.com/nataburdyey/text-genius",
   },
   {
     id: nanoid(),
-    title: 'MenuVerse',
-    url: 'https://menu-verse.netlify.app/',
+    title: "MenuVerse",
+    url: "https://menu-verse.netlify.app/",
     img: menuVerse,
-    stack: ['useState'],
-    repo: 'https://github.com/nataburdyey/menuverse',
+    stack: ["useState"],
+    repo: "https://github.com/nataburdyey/menuverse",
   },
   {
     id: nanoid(),
-    title: 'AccordionFun',
-    url: 'https://accordion-fun.netlify.app/',
+    title: "AccordionFun",
+    url: "https://accordion-fun.netlify.app/",
     img: accordionFun,
-    stack: ['useState', 'React Icons'],
-    repo: 'https://github.com/nataburdyey/accordion-fun',
+    stack: ["useState", "React Icons"],
+    repo: "https://github.com/nataburdyey/accordion-fun",
   },
   {
     id: nanoid(),
-    title: 'OpinionSpot',
-    url: 'https://opinion-spot.netlify.app/',
+    title: "OpinionSpot",
+    url: "https://opinion-spot.netlify.app/",
     img: opinionSpot,
-    stack: ['useState', 'React Icons'],
-    repo: 'https://github.com/nataburdyey/reviews-app',
+    stack: ["useState", "React Icons"],
+    repo: "https://github.com/nataburdyey/reviews-app",
   },
   {
     id: nanoid(),
-    title: 'CakeMates',
-    url: 'https://cake-mates.netlify.app/',
+    title: "CakeMates",
+    url: "https://cake-mates.netlify.app/",
     img: cakeMates,
-    stack: ['useState'],
-    repo: 'https://github.com/nataburdyey/cake-mates',
+    stack: ["useState"],
+    repo: "https://github.com/nataburdyey/cake-mates",
   },
   {
     id: nanoid(),
-    title: 'WindingWays',
-    url: 'https://winding-ways.netlify.app/',
+    title: "WindingWays",
+    url: "https://winding-ways.netlify.app/",
     img: windingWays,
-    stack: ['HTML', 'React'],
-    repo: 'https://github.com/nataburdyey/winding-ways',
+    stack: ["HTML", "React"],
+    repo: "https://github.com/nataburdyey/winding-ways",
   },
 ];
 
 export const reduxReactQueryRouterProjects = [
   {
     id: nanoid(),
-    title: 'Dimension Explorer',
-    url: 'https://dimension-explorer.netlify.app/',
+    title: "Dimension Explorer",
+    url: "https://dimension-explorer.netlify.app/",
     img: dimensionExplorer,
     stack: [
-      'React Query',
-      'React DaisyUI',
-      'Tailwind CSS',
-      'Observable Plot',
-      'react-range-slider-input',
+      "React Query",
+      "React DaisyUI",
+      "Tailwind CSS",
+      "Observable Plot",
+      "react-range-slider-input",
     ],
-    repo: 'https://github.com/nataburdyey/dimension-explorer',
+    repo: "https://github.com/nataburdyey/dimension-explorer",
   },
   {
     id: nanoid(),
-    title: 'Train Tracker',
-    url: 'https://wmata-train-tracker.netlify.app/',
+    title: "Train Tracker",
+    url: "https://wmata-train-tracker.netlify.app/",
     img: trainTracker,
-    stack: ['React Hooks', 'WMATA API', 'icones.js.org'],
-    repo: 'https://github.com/nataburdyey/train-tracker',
+    stack: ["React Hooks", "WMATA API", "icones.js.org"],
+    repo: "https://github.com/nataburdyey/train-tracker",
   },
   {
     id: nanoid(),
-    title: 'Photo Album',
-    url: 'https://slingacademy-photo-album.netlify.app/',
+    title: "Photo Album",
+    url: "https://slingacademy-photo-album.netlify.app/",
     img: photoAlbum,
     stack: [
-      'React Query',
-      'Tailwind CSS',
-      'react-infinite-scroll-component',
-      'react-use',
-      'react-dnd',
-      'react-dnd-html5-backend',
-      'react-dnd-touch-backend',
-      'Slingacademy API',
-      'React Icons'
+      "React Query",
+      "Tailwind CSS",
+      "react-infinite-scroll-component",
+      "react-use",
+      "react-dnd",
+      "react-dnd-html5-backend",
+      "react-dnd-touch-backend",
+      "Slingacademy API",
+      "React Icons",
     ],
-    repo: 'https://github.com/nataburdyey/photo-album-coding-challenge',
+    repo: "https://github.com/nataburdyey/photo-album-coding-challenge",
   },
   {
     id: nanoid(),
-    title: 'e-commerce: Cushy Comfort',
-    url: 'https://cushy-comfort.netlify.app/',
+    title: "e-commerce: Cushy Comfort",
+    url: "https://cushy-comfort.netlify.app/",
     img: cushyComfort,
     stack: [
-      'React Context API',
-      'React Router 6',
-      'AuthO',
-      'Stripe API',
-      'Axios',
-      'Formspree',
-      'Netlify Functions',
-      'Styled Components',
-      'React Icons',
+      "React Context API",
+      "React Router 6",
+      "AuthO",
+      "Stripe API",
+      "Axios",
+      "Formspree",
+      "Netlify Functions",
+      "Styled Components",
+      "React Icons",
     ],
-    repo: 'https://github.com/nataburdyey/e-commerce-app',
+    repo: "https://github.com/nataburdyey/e-commerce-app",
   },
   {
     id: nanoid(),
-    title: 'Job tracking app: JobHuntX',
-    url: 'https://jobhuntx.netlify.app/',
+    title: "Job tracking app: JobHuntX",
+    url: "https://jobhuntx.netlify.app/",
     img: jobhuntx,
     stack: [
-      'React Router 6',
-      'Redux Toolkit',
-      'Recharts',
-      'Axios',
-      'Local Storage',
-      'Pagination',
-      'Styled Components',
-      'React Icons',
-      'React-Tostify',
+      "React Router 6",
+      "Redux Toolkit",
+      "Recharts",
+      "Axios",
+      "Local Storage",
+      "Pagination",
+      "Styled Components",
+      "React Icons",
+      "React-Tostify",
     ],
-    repo: 'https://github.com/nataburdyey/job-hunt-x',
+    repo: "https://github.com/nataburdyey/job-hunt-x",
   },
   {
     id: nanoid(),
-    title: 'ReduxToolkitCart',
-    url: 'https://toolkit-cart-app.netlify.app/',
+    title: "ReduxToolkitCart",
+    url: "https://toolkit-cart-app.netlify.app/",
     img: reduxToolkitCart,
     stack: [
-      'Redux',
-      'Redux Toolkit',
-      'Immer',
-      'Redux Thunk',
-      'Redux DevTools',
-      'Heroicons',
+      "Redux",
+      "Redux Toolkit",
+      "Immer",
+      "Redux Thunk",
+      "Redux DevTools",
+      "Heroicons",
     ],
-    repo: '',
+    repo: "",
   },
   {
     id: nanoid(),
-    title: 'UnsplashMagic',
-    url: 'https://unsplash-magic.netlify.app/',
+    title: "UnsplashMagic",
+    url: "https://unsplash-magic.netlify.app/",
     img: unsplashMagic,
     stack: [
-      'React Query',
-      'React Query Devtools',
-      'Axios',
-      'React Icons',
-      'Dark Mode',
-      'Unsplash API',
+      "React Query",
+      "React Query Devtools",
+      "Axios",
+      "React Icons",
+      "Dark Mode",
+      "Unsplash API",
     ],
-    repo: 'https://github.com/nataburdyey/unsplash-magic',
+    repo: "https://github.com/nataburdyey/unsplash-magic",
   },
   {
     id: nanoid(),
-    title: 'SipCraft',
-    url: 'https://sip-craft.netlify.app/',
+    title: "SipCraft",
+    url: "https://sip-craft.netlify.app/",
     img: sipCraft,
     stack: [
-      'React Query',
-      'React Router 6',
-      'Axios',
-      'Styled Components',
-      'React-Toastify',
-      'TheCocktailDB API',
+      "React Query",
+      "React Router 6",
+      "Axios",
+      "Styled Components",
+      "React-Toastify",
+      "TheCocktailDB API",
     ],
-    repo: 'https://github.com/nataburdyey/sip-craft',
+    repo: "https://github.com/nataburdyey/sip-craft",
   },
   {
     id: nanoid(),
-    title: 'Contentful CMS',
-    url: '',
+    title: "Contentful CMS",
+    url: "",
     img: contentfulCms,
-    stack: ['Contentful API'],
-    repo: '',
+    stack: ["Contentful API"],
+    repo: "",
   },
 ];
 
 export const stateManagementProjects = [
   {
     id: nanoid(),
-    title: 'ReduxToolkitCart',
-    url: 'https://toolkit-cart-app.netlify.app/',
+    title: "ReduxToolkitCart",
+    url: "https://toolkit-cart-app.netlify.app/",
     img: reduxToolkitCart,
     stack: [
-      'Redux',
-      'Redux Toolkit',
-      'Immer',
-      'Redux Thunk',
-      'Redux DevTools',
-      'Heroicons',
+      "Redux",
+      "Redux Toolkit",
+      "Immer",
+      "Redux Thunk",
+      "Redux DevTools",
+      "Heroicons",
     ],
-    repo: '',
+    repo: "",
   },
 ];
