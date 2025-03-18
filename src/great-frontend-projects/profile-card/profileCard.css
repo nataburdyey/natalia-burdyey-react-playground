@@ -101,10 +101,11 @@
 
   button {
     color: var(--indigo);
-    padding: 8px;
+    padding: 8px 8px 4px;
     border: none;
     background-color: #fff;
     cursor: pointer;
+    margin-bottom: none;
 
     svg {
       width: 20px;
