@@ -24,12 +24,6 @@ const App = () => {
             All Projects
           </NavLink>
           <NavLink
-            to="/great-frontend"
-            className={({ isActive }) => (isActive ? "active" : null)}
-          >
-            GreatFrontEnd Challenges
-          </NavLink>
-          <NavLink
             to="/react-query"
             className={({ isActive }) => (isActive ? "active" : null)}
           >
@@ -41,9 +35,17 @@ const App = () => {
           >
             React Hook Snippets
           </NavLink>
+          <NavLink
+            to="/great-frontend"
+            className={({ isActive }) => (isActive ? "active" : null)}
+          >
+            GreatFrontEnd Challenges
+          </NavLink>
         </nav>
         <Routes>
           <Route path="/" element={<Projects />} />
+          <Route path="/react-query" element={<ReactQueryProjects />} />
+          <Route path="/react-hooks" element={<ReactHookSnippets />} />
           <Route path="/great-frontend/" element={<GreatFrontEndProjects />} />
           <Route
             path="/great-frontend/profile-card"
@@ -55,8 +57,6 @@ const App = () => {
               />
             }
           />
-          <Route path="/react-query" element={<ReactQueryProjects />} />
-          <Route path="/react-hooks" element={<ReactHookSnippets />} />
         </Routes>
       </main>
     </Router>

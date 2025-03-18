@@ -5,9 +5,9 @@ import ReactQueryProjects from "./ReactQueryProjects";
 const Projects = () => {
   return (
     <>
-      <GreatFrontEndProjects />
       <ReactQueryProjects />
       <ReactHookSnippets />
+      <GreatFrontEndProjects />
     </>
   );
 };
