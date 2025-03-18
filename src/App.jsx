@@ -2,7 +2,6 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  NavLink,
 } from "react-router-dom";
 import Hero from "./Hero";
 import Projects from "./Projects";
@@ -10,43 +9,22 @@ import ReactQueryProjects from "./ReactQueryProjects";
 import ReactHookSnippets from "./ReactHookSnippets";
 import GreatFrontEndProjects from "./GreatFrontEndProjects";
 import { ProfileCard } from "./great-frontend-projects/profile-card/ProfileCard";
+import Layout from "./Layout";
 
 const App = () => {
   return (
     <Router>
       <main>
-        <Hero />
-        <nav className="nav-center">
-          <NavLink
-            to="/"
-            className={({ isActive }) => (isActive ? "active" : null)}
-          >
-            All Projects
-          </NavLink>
-          <NavLink
-            to="/react-query"
-            className={({ isActive }) => (isActive ? "active" : null)}
-          >
-            Larger Scale Projects
-          </NavLink>
-          <NavLink
-            to="/react-hooks"
-            className={({ isActive }) => (isActive ? "active" : null)}
-          >
-            React Hook Snippets
-          </NavLink>
-          <NavLink
-            to="/great-frontend"
-            className={({ isActive }) => (isActive ? "active" : null)}
-          >
-            GreatFrontEnd Challenges
-          </NavLink>
-        </nav>
         <Routes>
-          <Route path="/" element={<Projects />} />
-          <Route path="/react-query" element={<ReactQueryProjects />} />
-          <Route path="/react-hooks" element={<ReactHookSnippets />} />
-          <Route path="/great-frontend/" element={<GreatFrontEndProjects />} />
+          {/* Main routes that use the Layout with Hero */}
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Projects />} />
+            <Route path="/react-query" element={<ReactQueryProjects />} />
+            <Route path="/react-hooks" element={<ReactHookSnippets />} />
+            <Route path="/great-frontend/" element={<GreatFrontEndProjects />} />
+          </Route>
+          
+          {/* Project routes without Hero */}
           <Route
             path="/great-frontend/profile-card"
             element={
