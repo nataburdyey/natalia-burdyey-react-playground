@@ -6,7 +6,7 @@ import { Footer } from "../Footer";
 
 export const ProfileCard = ({ name, title, description }) => {
   return (
-    <>
+    <div className="profile-card-page">
       <main className="container">
         <article className="profile-card">
           <section className="profile-details">
@@ -37,6 +37,6 @@ export const ProfileCard = ({ name, title, description }) => {
         </article>
       </main>
       <Footer />
-    </>
+    </div>
   );
 };
