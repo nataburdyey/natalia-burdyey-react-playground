@@ -1,31 +1,42 @@
-import React from "react";
-import "./ProfileCard.css";
+import "./profileCard.css";
+import { FaGithub, FaLinkedin, FaInstagramSquare } from "react-icons/fa";
+import { RiTwitterXFill } from "react-icons/ri";
+import profileImage from "./img/profile.png";
+import { Footer } from "../Footer";
 
 export const ProfileCard = ({ name, title, description }) => {
   return (
-    <div className="container">
-      <div className="profile-card">
-        <h2 className="profile-name">{name}</h2>
-        <h3 className="profile-title">{title}</h3>
-        <p className="profile-description">{description}</p>
-      </div>
-      <div class="credits" data-gfe-screenshot-exclude="true">
-        A challenge by{" "}
-        <a
-          href="https://www.greatfrontend.com/projects?ref=challenges"
-          target="_blank"
-        >
-          GreatFrontEnd Projects
-        </a>
-        . Built by{" "}
-        <a
-          href="https://www.greatfrontend.com/projects/u/nataburdyey"
-          target="_blank"
-        >
-          Natalia Burdyey
-        </a>
-        .
-      </div>
-    </div>
+    <>
+      <main className="container">
+        <article className="profile-card">
+          <section className="profile-details">
+            <img src={profileImage} alt="Profile" className="profile-image" />
+            <div className="profile-user">
+              <h2 className="profile-name">{name}</h2>
+              <h3 className="profile-title">{title}</h3>
+            </div>
+            <p className="profile-description">{description}</p>
+          </section>
+          <section className="profile-actions">
+            <button className="profile-button">Contact Me</button>
+            <div className="socials">
+              <button>
+                <FaGithub />
+              </button>
+              <button>
+                <FaLinkedin />
+              </button>
+              <button>
+                <FaInstagramSquare />
+              </button>
+              <button>
+                <RiTwitterXFill />
+              </button>
+            </div>
+          </section>
+        </article>
+      </main>
+      <Footer />
+    </>
   );
 };

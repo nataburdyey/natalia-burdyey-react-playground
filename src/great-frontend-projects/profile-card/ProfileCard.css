@@ -1,45 +1,103 @@
+:root {
+  --primary: #171717;
+  --secondary: #525252;
+  --indigo: #4338ca;
+}
+
 .container {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 200px;
 }
 
 .profile-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 340px;
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  max-width: 300px;
-  margin: 20px;
+  padding: 24px 16px;
+  gap: 40px;
 }
 
-.profile-name {
-  color: #333;
-  margin-bottom: 8px;
-}
-
-.profile-title {
-  color: #666;
-  font-size: 1rem;
-  margin-bottom: 12px;
-}
-
-.profile-description {
-  color: #777;
-  font-size: 0.9rem;
-  line-height: 1.5;
-}
-
-.credits {
-  color: #777;
-  position: fixed;
-  bottom: 24px;
-  left: 24px;
-  font-size: 11px;
+.profile-details {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  align-items: center;
   text-align: center;
 }
 
-.credits a {
-  color: #000;
-  font-weight: bold;
+.profile-user {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.profile-name {
+  font-family: "Noto Sans";
+  font-size: 1.25rem;
+  color: var(--primary);
+  line-height: 28px;
+}
+
+.profile-title {
+  font-family: "Noto Sans";
+  color: var(--secondary);
+  font-size: 0.875rem;
+  line-height: 20px;
+}
+
+.profile-description {
+  font-family: "Noto Sans";
+  color: var(--secondary);
+  font-size: 1rem;
+  line-height: 24px;
+}
+
+.profile-image {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+}
+
+.profile-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+}
+
+.profile-button {
+  font-family: "Noto Sans";
+  background-color: var(--indigo);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 16px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+
+  button {
+    color: var(--indigo);
+    padding: 8px;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+
+    svg {
+      width: 20px;
+      height: 20px;
+    }
+  }
 }

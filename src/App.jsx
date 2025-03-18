@@ -49,9 +49,9 @@ const App = () => {
             path="/great-frontend/profile-card"
             element={
               <ProfileCard
-                name="John Doe"
-                title="Software Engineer"
-                description="A passionate developer"
+                name="Sarah Dole"
+                title="Front End Engineer @ Microsoft"
+                description="I turn coffe into bugs which are fixed by someone else. Sertified Stack Overflow and Chat GPT developer."
               />
             }
           />
