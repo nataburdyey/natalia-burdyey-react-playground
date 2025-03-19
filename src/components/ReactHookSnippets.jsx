@@ -1,7 +1,7 @@
 import { nanoid } from "nanoid";
-import { reactHookSnippets } from "./data";
+import { reactHookSnippets } from "../data";
 
-const ReactHookSnippets = () => {
+export const ReactHookSnippets = () => {
   return (
     <section className="projects">
       <div className="title">
@@ -40,5 +40,3 @@ const ReactHookSnippets = () => {
     </section>
   );
 };
-
-export default ReactHookSnippets;

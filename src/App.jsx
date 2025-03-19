@@ -3,13 +3,14 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import Hero from "./Hero";
-import Projects from "./Projects";
-import ReactQueryProjects from "./ReactQueryProjects";
-import ReactHookSnippets from "./ReactHookSnippets";
-import GreatFrontEndProjects from "./GreatFrontEndProjects";
 import { ProfileCard } from "./great-frontend-projects/profile-card/ProfileCard";
-import Layout from "./Layout";
+import {
+  Layout,
+  Projects,
+  ReactQueryProjects,
+  GreatFrontEndProjects,
+  ReactHookSnippets,
+} from "./components";
 
 const App = () => {
   return (

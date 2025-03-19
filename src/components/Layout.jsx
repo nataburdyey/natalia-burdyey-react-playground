@@ -1,7 +1,7 @@
 import { Outlet, NavLink } from "react-router-dom";
-import Hero from "./Hero";
+import { Hero } from "./Hero";
 
-const Layout = () => {
+export const Layout = () => {
   return (
     <>
       <Hero />
@@ -35,5 +35,3 @@ const Layout = () => {
     </>
   );
 };
-
-export default Layout;

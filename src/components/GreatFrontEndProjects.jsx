@@ -1,19 +1,25 @@
 import { nanoid } from "nanoid";
-import { reduxReactQueryRouterProjects } from "./data";
+import { greatFrontEndProjects } from "../data";
 
-const ReactQueryProjects = () => {
+export const GreatFrontEndProjects = () => {
   return (
     <section className="projects">
-      <div className="title" style={{ whiteSpace: "pre" }}>
-        <h3>Redux, React Query, React Router,{"\n"}and External APIs</h3>
+      <div className="title">
+        <a
+          href="https://www.greatfrontend.com/projects"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <h3 className="title">GreatFrontEnd Projects</h3>
+        </a>
         <div className="title-underline"></div>
       </div>
       <div className="projects-center">
-        {reduxReactQueryRouterProjects.map((project) => {
-          const { title, url, img, stack, id } = project;
+        {greatFrontEndProjects.map((project) => {
+          const { title, url, img, stack, id, repo } = project;
           return (
             <div className="project" key={id}>
-              <a href={url} target="_blank" rel="noreferrer">
+              <a href={url}>
                 <h5>{title}</h5>
                 <img src={img} alt={title} className="img" />
               </a>
@@ -33,4 +39,3 @@ const ReactQueryProjects = () => {
     </section>
   );
 };
-export default ReactQueryProjects;

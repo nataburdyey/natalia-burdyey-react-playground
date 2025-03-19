@@ -1,15 +1,14 @@
-import { nanoid } from 'nanoid';
-import heroImg from './assets/online_resume.svg';
-import { links, skills, devTools } from './data';
+import heroImg from '../assets/online_resume.svg';
+import { links, devTools } from '../data';
 
-const Hero = () => {
+export const Hero = () => {
   return (
     <section className="hero">
       <div className="hero-center">
         <div className="hero-title">
           <h2 style={{ whiteSpace: "pre" }}>
-            Natalia's {"\n"}
-            Coding Playground
+            Code, Create, React {"\n"}
+            – By Natalia
           </h2>
           <p>
             As a passionate frontend engineer, I am committed to constant
@@ -62,5 +61,3 @@ const Hero = () => {
     </section>
   );
 };
-
-export default Hero;

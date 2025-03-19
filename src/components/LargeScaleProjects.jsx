@@ -1,27 +1,18 @@
 import { nanoid } from "nanoid";
-import { greatFrontEndProjects } from "./data";
-import { Outlet } from "react-router-dom";
-import { ProfileCard } from "./great-frontend-projects/profile-card/ProfileCard";
 
-const GreatFrontEndProjects = () => {
+export const LargeScaleProjects = () => {
   return (
     <section className="projects">
-      <div className="title">
-        <a
-          href="https://www.greatfrontend.com/projects"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <h3 className="title">GreatFrontEnd Projects</h3>
-        </a>
+      <div className="title" style={{ whiteSpace: "pre" }}>
+        <h3>Large-Scale Projects</h3>
         <div className="title-underline"></div>
       </div>
       <div className="projects-center">
-        {greatFrontEndProjects.map((project) => {
-          const { title, url, img, stack, id, repo } = project;
+        {largeScaleProjects.map((project) => {
+          const { title, url, img, stack, id } = project;
           return (
             <div className="project" key={id}>
-              <a href={url}>
+              <a href={url} target="_blank" rel="noreferrer">
                 <h5>{title}</h5>
                 <img src={img} alt={title} className="img" />
               </a>
@@ -41,5 +32,3 @@ const GreatFrontEndProjects = () => {
     </section>
   );
 };
-
-export default GreatFrontEndProjects;

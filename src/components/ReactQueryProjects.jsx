@@ -1,15 +1,15 @@
 import { nanoid } from "nanoid";
-import { largeScaleProjects } from "./data";
+import { reduxReactQueryRouterProjects } from "../data";
 
-const LargeScaleProjects = () => {
+export const ReactQueryProjects = () => {
   return (
     <section className="projects">
       <div className="title" style={{ whiteSpace: "pre" }}>
-        <h3>Large-Scale Projects</h3>
+        <h3>Redux, React Query, React Router,{"\n"}and External APIs</h3>
         <div className="title-underline"></div>
       </div>
       <div className="projects-center">
-        {largeScaleProjects.map((project) => {
+        {reduxReactQueryRouterProjects.map((project) => {
           const { title, url, img, stack, id } = project;
           return (
             <div className="project" key={id}>
@@ -33,4 +33,3 @@ const LargeScaleProjects = () => {
     </section>
   );
 };
-export default LargeScaleProjects;
