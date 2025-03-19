@@ -1,10 +1,11 @@
 import { Outlet, NavLink } from "react-router-dom";
 import { Hero } from "./Hero";
+import { Footer } from "../great-frontend-projects/Footer";
 
-export const Layout = () => {
+export const Layout = ({showHero, showFooter}) => {
   return (
     <>
-      <Hero />
+      {showHero && <Hero />}
       <nav className="nav-center">
         <NavLink
           to="/"
@@ -32,6 +33,7 @@ export const Layout = () => {
         </NavLink>
       </nav>
       <Outlet />
+      {showFooter && <Footer />}
     </>
   );
 };
