@@ -122,14 +122,11 @@ export const greatFrontEndProjects = [
     id: nanoid(),
     title: "Profile Card",
     url: "/great-frontend/profile-card",
+    repo: "https://github.com/nataburdyey/natalia-burdyey-react-playground/tree/main/src/great-frontend-projects/profile-card",
+    greatFrontEndLink:
+      "https://www.greatfrontend.com/projects/s/profile-card-with-react-and-react-icons-1bd71b22",
     img: profileCard,
-    stack: [
-      "HTML",
-      "CSS",
-      "React",
-      "Vite",
-      "React Icons",
-    ],
+    stack: ["HTML Semantic Elements", "CSS", "React", "React Icons"],
   },
   // {
   //   id: nanoid(),

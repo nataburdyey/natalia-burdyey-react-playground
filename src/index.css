@@ -500,3 +500,17 @@ PROJECTS
   color: var(--primary-500);
   border-bottom: 2px solid var(--primary-500);
 }
+
+.label-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    padding: 4px;
+  }
+}
+
+.label-container a:hover {
+    background-color: white;
+  }

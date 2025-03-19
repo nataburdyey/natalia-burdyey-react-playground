@@ -10,7 +10,7 @@ export const ReactQueryProjects = () => {
       </div>
       <div className="projects-center">
         {reduxReactQueryRouterProjects.map((project) => {
-          const { title, url, img, stack, id } = project;
+          const { title, url, img, stack, id, repo } = project;
           return (
             <div className="project" key={id}>
               <a href={url} target="_blank" rel="noreferrer">
@@ -25,6 +25,13 @@ export const ReactQueryProjects = () => {
                     </span>
                   );
                 })}
+                <a
+                  href={repo}
+                  className="stack stack-item repo"
+                  target="_blank"
+                >
+                  GitHub Repo
+                </a>
               </p>
             </div>
           );
