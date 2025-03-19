@@ -1,4 +1,4 @@
-import "./ProgressBar.css";
+import "./progressBar.css";
 
 export const ProgressBar = ({ value }) => {
   const MIN = 0;
