@@ -507,7 +507,7 @@ PROJECTS
   align-items: center;
 
   img {
-    padding: 4px;
+    padding-bottom: 8px;
   }
 }
 
