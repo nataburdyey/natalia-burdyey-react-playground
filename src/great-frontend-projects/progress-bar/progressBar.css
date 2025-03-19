@@ -1,0 +1,37 @@
+.progress-bar-table-container {
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto;
+  max-width: 800px;
+}
+
+.progress-bar-table {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.progress {
+  background-color: rgb(233, 236, 239);
+  border: 1px solid #c5c5c5;
+  border-radius: 8px;
+  height: 20px;
+  margin-bottom: 0.5rem;
+  overflow: hidden;
+}
+
+.progress-bar {
+  background-color: #0d6efd;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+  height: 100%;
+}
+
+.progress-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 14px;
+}

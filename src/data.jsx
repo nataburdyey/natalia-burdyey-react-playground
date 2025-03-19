@@ -37,6 +37,7 @@ import dimensionExplorer from "./assets/dimension-explorer.png";
 import trainTracker from "./assets/train-tracker-app.png";
 import photoAlbum from "./assets/photo-album.png";
 import profileCard from "./great-frontend-projects/profile-card/designs/Desktop.jpg";
+import progressBar from "./assets/progress-bar.png";
 
 export const skills = [
   "JavaScript",
@@ -128,20 +129,14 @@ export const greatFrontEndProjects = [
     img: profileCard,
     stack: ["HTML Semantic Elements", "CSS", "React", "React Icons"],
   },
-  // {
-  //   id: nanoid(),
-  //   title: "DynamicNavPro",
-  //   url: "https://dynamic-nav-pro.netlify.app/",
-  //   img: dynamicNavPro,
-  //   stack: [
-  //     "useState",
-  //     "createContext",
-  //     "useContext",
-  //     "custom hooks",
-  //     "React Icons",
-  //   ],
-  //   repo: "https://github.com/nataburdyey/dynamic-nav-pro",
-  // },
+  {
+    id: nanoid(),
+    title: "Progress Bar",
+    url: "https://dynamic-nav-pro.netlify.app/",
+    img: dynamicNavPro,
+    stack: ["HTML", "CSS", "React"],
+    repo: "https://github.com/nataburdyey/dynamic-nav-pro",
+  },
   // {
   //   id: nanoid(),
   //   title: "SidebarSurfer",
