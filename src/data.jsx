@@ -132,25 +132,13 @@ export const greatFrontEndProjects = [
   {
     id: nanoid(),
     title: "Progress Bar",
-    url: "https://dynamic-nav-pro.netlify.app/",
-    img: dynamicNavPro,
+    url: "/great-frontend/progress-bar",
+    greatFrontEndLink:
+      "https://www.greatfrontend.com/questions/user-interface/progress-bar/react?framework=react&tab=coding",
+    img: progressBar,
     stack: ["HTML", "CSS", "React"],
-    repo: "https://github.com/nataburdyey/dynamic-nav-pro",
+    repo: "https://github.com/nataburdyey/natalia-burdyey-react-playground/tree/main/src/great-frontend-projects/progress-bar",
   },
-  // {
-  //   id: nanoid(),
-  //   title: "SidebarSurfer",
-  //   url: "https://sidebar-surfer.netlify.app/",
-  //   img: sidebarSurfer,
-  //   stack: [
-  //     "useState",
-  //     "createContext",
-  //     "useContext",
-  //     "custom hooks",
-  //     "React Icons",
-  //   ],
-  //   repo: "https://github.com/nataburdyey/sidebar-surfer",
-  // },
 ];
 
 export const reactHookSnippets = [

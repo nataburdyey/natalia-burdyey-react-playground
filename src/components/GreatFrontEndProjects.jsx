@@ -47,11 +47,6 @@ export const GreatFrontEndProjects = () => {
                 >
                   GitHub Repo
                 </a>
-                <div className="label-container">
-                  <a href={greatFrontEndLink} target="_blank" rel="noreferrer">
-                    <img src={greatFrontEnd} alt="GreatFrontEnd Projects" />
-                  </a>
-                </div>
               </p>
             </div>
           );
