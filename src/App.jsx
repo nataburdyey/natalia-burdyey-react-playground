@@ -5,7 +5,7 @@ import {
   ReactQueryProjects,
   GreatFrontEndProjects,
   ReactHookSnippets,
-} from "./components";
+} from "./components"; // Ensure the path is correct
 import { ProfileCard, ProgressBarTable } from "./great-frontend-projects";
 
 export const App = () => {

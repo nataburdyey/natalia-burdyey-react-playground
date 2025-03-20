@@ -26,12 +26,12 @@ export const ReactHookSnippets = () => {
                   );
                 })}
                 <a
-               href={repo}
-               className="stack stack-item repo"
-               target="_blank"
-              >
-               GitHub Repo
-              </a>
+                  href={repo}
+                  className="stack stack-item repo"
+                  target="_blank"
+                >
+                  GitHub Repo
+                </a>
               </p>
             </div>
           );

@@ -23,6 +23,7 @@ export const useFetchProjects = () => {
       setLoading(false);
       setProjects(projects);
     } catch (error) {
+      console.error("Error fetching projects:", error);
       setLoading(false);
     }
   };

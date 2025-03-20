@@ -1,5 +1,5 @@
-import heroImg from '../assets/online_resume.svg';
-import { links, devTools } from '../data';
+import heroImg from "../assets/online_resume.svg";
+import { links, devTools } from "../data.jsx";
 
 export const Hero = () => {
   return (
@@ -7,8 +7,7 @@ export const Hero = () => {
       <div className="hero-center">
         <div className="hero-title">
           <h2 style={{ whiteSpace: "pre" }}>
-            Code, Create, React {"\n"}
-            – By Natalia
+            Code, Create, React {"\n"}– By Natalia
           </h2>
           <p>
             As a passionate frontend engineer, I am committed to constant

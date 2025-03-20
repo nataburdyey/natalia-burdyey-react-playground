@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import { nanoid } from "nanoid";
 
 export const LargeScaleProjects = () => {

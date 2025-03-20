@@ -1,4 +1,3 @@
-import React from "react";
 import { nanoid } from "nanoid";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import {

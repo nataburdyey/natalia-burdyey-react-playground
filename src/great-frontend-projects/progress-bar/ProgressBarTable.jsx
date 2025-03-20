@@ -1,4 +1,3 @@
-import React from "react";
 import { ProgressBar } from "./ProgressBar";
 import "./progressBar.css";
 import { Footer } from "../Footer";
