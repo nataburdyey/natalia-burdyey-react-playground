@@ -23,7 +23,7 @@ export const App = () => {
             />
           </Route>
           {/* Nested routes for GreatFrontEnd Projects */}
-          <Route path="/great-frontend/*" element={<Layout showFooter/>}>
+          <Route path="/great-frontend/*" element={<Layout showFooter />}>
             <Route
               path="profile-card"
               element={
