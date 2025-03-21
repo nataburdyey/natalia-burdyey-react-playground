@@ -12,31 +12,33 @@ import {
   SiReactrouter,
   SiCypress,
 } from "react-icons/si";
-import cakeMates from "./assets/cake-mates.png";
+
 import accordionFun from "./assets/accordion-fun.png";
-import dynamicNavPro from "./assets/dynamic-nav.png";
+import cakeMates from "./assets/cake-mates.png";
 import colorBurst from "./assets/color-burst.png";
+import contactForm from "./assets/contact-form.png";
+import contentfulCms from "./assets/contentful-cms.png";
+import cushyComfort from "./assets/cushycomfort.png";
+import dimensionExplorer from "./assets/dimension-explorer.png";
+import dynamicNavPro from "./assets/dynamic-nav.png";
+import jobhuntx from "./assets/jobhuntx.png";
 import menuVerse from "./assets/menu-verse.png";
-import slideEase from "./assets/slide-ease.png";
-import sidebarSurfer from "./assets/sidebarSurfer.png";
-import smartShopper from "./assets/smart-shopper.png";
-import opinionSpot from "./assets/opinion-spot.png";
-import textGenius from "./assets/text-genius.png";
-import tabMaster from "./assets/tab-master.png";
 import navbar from "./assets/navbar.png";
+import opinionSpot from "./assets/opinion-spot.png";
+import photoAlbum from "./assets/photo-album.png";
+import progressBar from "./assets/progress-bar.png";
+import reduxToolkitCart from "./assets/redux-toolkit-cart.png";
+import sidebarSurfer from "./assets/sidebarSurfer.png";
+import sipCraft from "./assets/sip-craft.png";
+import slideEase from "./assets/slide-ease.png";
+import smartShopper from "./assets/smart-shopper.png";
+import tabMaster from "./assets/tab-master.png";
+import textGenius from "./assets/text-genius.png";
+import trainTracker from "./assets/train-tracker-app.png";
+import unsplashMagic from "./assets/unsplash-magic.png";
 import reactUseReducerCart from "./assets/use-reducer-cart.png";
 import windingWays from "./assets/winding-ways.png";
-import unsplashMagic from "./assets/unsplash-magic.png";
-import sipCraft from "./assets/sip-craft.png";
-import cushyComfort from "./assets/cushycomfort.png";
-import reduxToolkitCart from "./assets/redux-toolkit-cart.png";
-import contentfulCms from "./assets/contentful-cms.png";
-import jobhuntx from "./assets/jobhuntx.png";
-import dimensionExplorer from "./assets/dimension-explorer.png";
-import trainTracker from "./assets/train-tracker-app.png";
-import photoAlbum from "./assets/photo-album.png";
 import profileCard from "./great-frontend-projects/profile-card/designs/Desktop.jpg";
-import progressBar from "./assets/progress-bar.png";
 
 export const skills = [
   "JavaScript",
@@ -121,7 +123,7 @@ export const greatFrontEndProjects = [
   {
     id: nanoid(),
     title: "Profile Card",
-    url: "/great-frontend/profile-card",
+    url: "/great-frontend-projects/profile-card",
     repo: "https://github.com/nataburdyey/natalia-burdyey-react-playground/tree/main/src/great-frontend-projects/profile-card",
     greatFrontEndLink:
       "https://www.greatfrontend.com/projects/s/profile-card-with-react-and-react-icons-1bd71b22",
@@ -131,12 +133,22 @@ export const greatFrontEndProjects = [
   {
     id: nanoid(),
     title: "Progress Bar",
-    url: "/great-frontend/progress-bar",
+    url: "/great-frontend-projects/progress-bar",
     greatFrontEndLink:
       "https://www.greatfrontend.com/questions/user-interface/progress-bar/react?framework=react&tab=coding",
     img: progressBar,
     stack: ["HTML", "CSS", "React"],
     repo: "https://github.com/nataburdyey/natalia-burdyey-react-playground/tree/main/src/great-frontend-projects/progress-bar",
+  },
+  {
+    id: nanoid(),
+    title: "Contact Form",
+    url: "/great-frontend-projects/contact-form",
+    greatFrontEndLink:
+      "https://www.greatfrontend.com/interviews/study/one-month/questions/user-interface/contact-form/react",
+    img: contactForm,
+    stack: ["HTML Form", "CSS", "React"],
+    repo: "https://github.com/nataburdyey/natalia-burdyey-react-playground/tree/main/src/great-frontend-projects/contact-form",
   },
 ];
 

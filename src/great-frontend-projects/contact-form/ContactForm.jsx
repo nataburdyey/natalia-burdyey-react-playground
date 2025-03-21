@@ -35,13 +35,3 @@ export default function ContactForm() {
     </div>
   );
 }
-
-/*
-Summary:
-- Add labels and id
-- Add correct type for inputs
-- Form action prop
-- No need for classes, use elements as selectors
-- Wrap label and input in div and add display: block
-- textarea: rows, cols, maxlength, minlength, readonly, placeholder, disabled
-*/
