@@ -15,7 +15,7 @@ export const App = () => {
     <Router>
       <main>
         <Routes>
-          <Route path="/" element={<Layout showHero />}>
+          <Route path="/" element={<Layout showHero showNav />}>
             <Route index element={<Projects />} />
             <Route path="/react-query" element={<ReactQueryProjects />} />
             <Route path="/react-hooks" element={<ReactHookSnippets />} />
