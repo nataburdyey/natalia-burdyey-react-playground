@@ -1,4 +1,5 @@
 import { nanoid } from "nanoid";
+
 import { reactHookSnippets } from "../data";
 
 export const ReactHookSnippets = () => {

@@ -1,4 +1,4 @@
-export * from "./GreatFrontendProjects";
+export * from "./GreatFrontEndProjects";
 export * from "./ReactHookSnippets";
 export * from "./ReactQueryProjects";
 export * from "./Hero";
