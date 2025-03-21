@@ -1,4 +1,5 @@
 import { Outlet, NavLink } from "react-router-dom";
+
 import { Hero } from "../components";
 import { Footer } from "../great-frontend-projects/Footer";
 
@@ -26,7 +27,7 @@ export const Layout = ({ showHero, showFooter }) => {
           React Hook Snippets
         </NavLink>
         <NavLink
-          to="/great-frontend"
+          to="/great-frontend-projects/"
           className={({ isActive }) => (isActive ? "active" : null)}
         >
           GreatFrontEnd Projects

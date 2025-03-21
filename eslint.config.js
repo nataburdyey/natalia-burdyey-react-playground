@@ -1,8 +1,8 @@
-import eslint from "@eslint/js";
-import reactPlugin from "eslint-plugin-react";
-import reactHooksPlugin from "eslint-plugin-react-hooks";
 import importPlugin from "eslint-plugin-import";
 import prettierPlugin from "eslint-plugin-prettier";
+import reactPlugin from "eslint-plugin-react";
+import reactHooksPlugin from "eslint-plugin-react-hooks";
+import eslint from "@eslint/js";
 
 export default [
   eslint.configs.recommended,
@@ -38,6 +38,9 @@ export default [
         console: "readonly",
         React: "readable",
         JSX: "readable",
+        alert: "readable",
+        FormData: "readable",
+        fetch: "readable",
       },
     },
     settings: {

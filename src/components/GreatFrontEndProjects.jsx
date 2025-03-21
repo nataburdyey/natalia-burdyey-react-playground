@@ -1,6 +1,7 @@
 import { nanoid } from "nanoid";
-import { greatFrontEndProjects } from "../data";
+
 import greatFrontEnd from "../assets/greatFrontEnd.svg";
+import { greatFrontEndProjects } from "../data";
 
 const Project = ({ project }) => {
   const { title, url, img, stack, id, repo, greatFrontEndLink } = project;

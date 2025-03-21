@@ -1,12 +1,14 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 import {
   Layout,
   Projects,
   ReactQueryProjects,
   GreatFrontEndProjects,
   ReactHookSnippets,
-} from "./components"; // Ensure the path is correct
+} from "./components";
 import { ProfileCard, ProgressBarTable } from "./great-frontend-projects";
+import ContactForm from "./great-frontend-projects/contact-form/ContactForm";
 
 export const App = () => {
   return (
@@ -18,12 +20,15 @@ export const App = () => {
             <Route path="/react-query" element={<ReactQueryProjects />} />
             <Route path="/react-hooks" element={<ReactHookSnippets />} />
             <Route
-              path="/great-frontend/"
+              path="/great-frontend-projects/"
               element={<GreatFrontEndProjects />}
             />
           </Route>
           {/* Nested routes for GreatFrontEnd Projects */}
-          <Route path="/great-frontend/*" element={<Layout showFooter />}>
+          <Route
+            path="/great-frontend-projects/*"
+            element={<Layout showFooter />}
+          >
             <Route
               path="profile-card"
               element={
@@ -35,6 +40,7 @@ export const App = () => {
               }
             />
             <Route path="progress-bar" element={<ProgressBarTable />} />
+            <Route path="contact-form" element={<ContactForm />} />
           </Route>
         </Routes>
       </main>

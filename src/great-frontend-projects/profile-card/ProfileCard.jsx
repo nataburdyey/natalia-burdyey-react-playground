@@ -1,8 +1,10 @@
-import "./profileCard.css";
 import { FaGithub, FaLinkedin, FaInstagramSquare } from "react-icons/fa";
 import { RiTwitterXFill } from "react-icons/ri";
-import profileImage from "./img/profile.png";
+
 import { Footer } from "../Footer";
+import profileImage from "./img/profile.png";
+
+import "./profileCard.css";
 
 export const ProfileCard = ({ name, title, description }) => {
   return (
