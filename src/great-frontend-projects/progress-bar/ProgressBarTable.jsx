@@ -1,6 +1,6 @@
 import { ProgressBar } from "./ProgressBar";
+
 import "./progressBar.css";
-import { Footer } from "../Footer";
 
 const testData = [0, -10, 25, 50, 75, 100, 200];
 
@@ -20,7 +20,6 @@ export const ProgressBarTable = () => {
           })}
         </div>
       </main>
-      <Footer />
     </>
   );
 };

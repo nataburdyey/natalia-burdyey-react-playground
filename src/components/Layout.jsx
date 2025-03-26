@@ -1,7 +1,7 @@
 import { Outlet, NavLink } from "react-router-dom";
 
 import { Hero } from "../components";
-import { Footer } from "../great-frontend-projects/Footer";
+import { Footer } from "../great-frontend-projects";
 
 export const Layout = ({ showHero, showNav, showFooter }) => {
   return (
