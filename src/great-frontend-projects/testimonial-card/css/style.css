@@ -1,0 +1,65 @@
+/* Put any custom CSS styles here.  */
+/* Be sure to delete the <style> tag in index.html if you want to use this stylesheet. */
+body {
+  margin: 0;
+  font-family: "Noto Sans";
+  min-height: 100vh;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f9fafb, #d2d6db);
+}
+
+.testimonial-card {
+  margin-top: 200px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-self: center;
+  width: 340px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-card-header {
+  display: flex;
+  gap: 16px;
+}
+
+.testimonial-card-title {
+  font-family: "Noto Sans";
+  font-size: 1.25rem;
+  line-height: 28px;
+}
+
+.testimonial-card-about {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.testimonial-card-body {
+  /* font-family: "Noto Sans"; */
+  font-size: 1rem;
+  line-height: 24px;
+}

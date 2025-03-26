@@ -7,7 +7,11 @@ import {
   GreatFrontEndProjects,
   ReactHookSnippets,
 } from "./components";
-import { ProfileCard, ProgressBarTable } from "./great-frontend-projects";
+import {
+  ProfileCard,
+  ProgressBarTable,
+  TestimonialCard,
+} from "./great-frontend-projects";
 import ContactForm from "./great-frontend-projects/contact-form/ContactForm";
 
 export const App = () => {
@@ -41,6 +45,7 @@ export const App = () => {
             />
             <Route path="progress-bar" element={<ProgressBarTable />} />
             <Route path="contact-form" element={<ContactForm />} />
+            <Route path="testimonial-card" element={<TestimonialCard />} />
           </Route>
         </Routes>
       </main>
