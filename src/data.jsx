@@ -39,6 +39,7 @@ import unsplashMagic from "./assets/unsplash-magic.png";
 import reactUseReducerCart from "./assets/use-reducer-cart.png";
 import windingWays from "./assets/winding-ways.png";
 import profileCard from "./great-frontend-projects/profile-card/designs/Desktop.jpg";
+import testimonialCard from "./great-frontend-projects/testimonial-card/designs/Desktop.jpg";
 
 export const skills = [
   "JavaScript",
@@ -136,8 +137,8 @@ export const greatFrontEndProjects = [
     url: "/great-frontend-projects/testimonial-card",
     repo: "https://github.com/nataburdyey/natalia-burdyey-react-playground/tree/main/src/great-frontend-projects/testimonial-card",
     greatFrontEndLink:
-      "https://www.greatfrontend.com/projects/s/profile-card-with-react-and-react-icons-1bd71b22",
-    img: profileCard,
+      "https://www.greatfrontend.com/projects/s/testimonial-card-with-react-17546503",
+    img: testimonialCard,
     stack: ["HTML Semantic Elements", "CSS", "React"],
   },
   {
