@@ -9,7 +9,7 @@ export const TestimonialCard = () => {
     <div className="main-container">
       <div className="testimonial-card">
         <div className="testimonial-card-header">
-          <img src={img} />
+          <img src={img} className="profile-image" />
           <div className="testimonial-card-about">
             <h3 className="testimonial-card-title">Sarah Dole</h3>
             <p>@sarahdole</p>

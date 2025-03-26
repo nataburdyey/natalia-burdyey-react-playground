@@ -132,6 +132,16 @@ export const greatFrontEndProjects = [
   },
   {
     id: nanoid(),
+    title: "Testimonial Card",
+    url: "/great-frontend-projects/testimonial-card",
+    repo: "https://github.com/nataburdyey/natalia-burdyey-react-playground/tree/main/src/great-frontend-projects/testimonial-card",
+    greatFrontEndLink:
+      "https://www.greatfrontend.com/projects/s/profile-card-with-react-and-react-icons-1bd71b22",
+    img: profileCard,
+    stack: ["HTML Semantic Elements", "CSS", "React"],
+  },
+  {
+    id: nanoid(),
     title: "Progress Bar",
     url: "/great-frontend-projects/progress-bar",
     greatFrontEndLink:

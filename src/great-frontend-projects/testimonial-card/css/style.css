@@ -51,7 +51,7 @@ body {
   flex-direction: column;
 }
 
-img {
+.profile-image {
   width: 48px;
   height: 48px;
   border-radius: 50%;
@@ -59,7 +59,6 @@ img {
 }
 
 .testimonial-card-body {
-  /* font-family: "Noto Sans"; */
   font-size: 1rem;
   line-height: 24px;
 }
